@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CConfigData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceConfigData>
+    <CSourceConfigData>
+      <Name>de</Name>
+      <URL>http://rytecepg.wanwizard.eu/rytecxmltvGermany.gz</URL>
+      <Prefix>de_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>3sat.de</string>
+        <string>Animax.de</string>
+        <string>AnixeHD.de</string>
+        <string>ARTE.de</string>
+        <string>ATV.de</string>
+        <string>ATV2.at</string>
+        <string>AXN.de</string>
+        <string>CartoonNetwork.de</string>
+        <string>ComedyNick.ch</string>
+        <string>EinsFestival.de</string>
+        <string>EinsPlus.de</string>
+        <string>Fox.de</string>
+        <string>Pro7.de</string>
+        <string>ProSiebenMaxx.de</string>
+        <string>RTL.de</string>
+        <string>RTL2.de</string>
+        <string>SciFi.de</string>
+        <string>SkyAction.de</string>
+        <string>SkyAtlanticHD.de</string>
+        <string>SkyCinema.de</string>
+        <string>SkyCinemaHits.de</string>
+        <string>SkyCinemaPlus1.de</string>
+        <string>SkyCinemaPlus24.de</string>
+        <string>SkyComedy.de</string>
+        <string>SkyNostalgie.de</string>
+        <string>SRTL.de</string>
+        <string>Tele5.de</string>
+        <string>TNTSerie.de</string>
+        <string>VIVA.at</string>
+        <string>Vox.de</string>
+        <string>ComedyVIVA.ch</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>pol</Name>
+      <URL>http://rytecepg.wanwizard.eu/rytecxmltv-Poland.gz</URL>
+      <Prefix>pl_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>Canalplus.pl</string>
+        <string>CanalplusFilm.pl</string>
+        <string>CartoonNetwork.pl</string>
+        <string>Cinemax.pl</string>
+        <string>Cinemax2.pl</string>
+        <string>Discovery.pl</string>
+        <string>DiscoveryScience.pl</string>
+        <string>DiscoveryWorld.pl</string>
+        <string>Fox.pl</string>
+        <string>HBO.pl</string>
+        <string>HBO2.pl</string>
+        <string>HBOComedy.pl</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>sp</Name>
+      <URL>http://rytecepg.wanwizard.eu/rytecxmltv-Spain.gz</URL>
+      <Prefix>sp_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>AXNhd.sp</string>
+        <string>canalplusHD.sp</string>
+        <string>cplusaccionHD.sp</string>
+        <string>CanalPlusComediaHD.sp</string>
+        <string>CanalPlusDCine.sp</string>
+        <string>CanalPlusXtra.sp</string>
+        <string>CanalPlusSeries.sp</string>
+        <string>CosmopolitanHD.es</string>
+        <string>Fox.sp</string>
+        <string>Nitro.sp</string>
+        <string>Nova.sp</string>
+        <string>Scifi.sp</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>lv</Name>
+      <URL>http://linux-sat.tv/epg/tvprogram_ua_ru.gz</URL>
+      <Prefix>lv_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>explorer</string>
+        <string>history</string>
+        <string>ltv1-lat</string>
+        <string>ltv7-lat</string>
+        <string>lnt-lat</string>
+        <string>tv3-lat</string>
+        <string>tv6-lat</string>
+        <string>tv1000</string>
+        <string>tv1000-action</string>
+        <string>tv1000-premium</string>
+        <string>kanals2-lat</string>
+        <string>tv1000-premium-hd</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>it</Name>
+      <URL>http://enigma2.world-of-satellite.com/epg_data/rytecxmltvItaly.gz</URL>
+      <Prefix>it_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>AXN.it</string>
+        <string>AXNSciFi.it</string>
+        <string>Boing.it</string>
+        <string>SKYCinema1.it</string>
+        <string>CinemaComedyHD.it</string>
+        <string>CinemaHits.it</string>
+        <string>Cult.it</string>
+        <string>CinemaMax.it</string>
+        <string>Fox.it</string>
+        <string>FoxCrime.it</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>l2</Name>
+      <URL>epg_lv.xml</URL>
+      <Prefix>l2_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>LNT</string>
+        <string>LTV1</string>
+        <string>LTV7</string>
+        <string>TV1000</string>
+        <string>TV1000 Action</string>
+        <string>TV1000 Premium</string>
+        <string>TV3</string>
+        <string>TV6</string>
+        <string>Brazzers TV Europe</string>
+        <string>Discovery Channel</string>
+        <string>History Channel </string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>se</Name>
+      <URL>http://rytecepg.wanwizard.eu/rytecxmltvnordic.gz</URL>
+      <Prefix>se_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>CartoonNetwork.fi</string>
+        <string>TV3plus.dk</string>
+        <string>TV6.se</string>
+        <string>ViasatFilmComedy.se</string>
+        <string>ViasatFilmDrama.se</string>
+        <string>ViasatFilmHits.se</string>
+        <string>TV1000.fi</string>
+        <string>ViasatFilmPremiere.se</string>
+        <string>ViasatSeries.se</string>
+        <string>TV1000Action.fi</string>
+        <string>ComedyCentral.dk</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+    <CSourceConfigData>
+      <Name>fr</Name>
+      <URL>  http://rytec.sifteam.eu/rytecxmltvcsat.gz</URL>
+      <Prefix>fr_</Prefix>
+      <Group />
+      <AddHours>0</AddHours>
+      <KeepChannelsIds>
+        <string>Direct8.fr</string>
+        <string>M6.fr</string>
+        <string>NT1.fr</string>
+        <string>TCM.fr</string>
+        <string>TF1.fr</string>
+        <string>W9.fr</string>
+      </KeepChannelsIds>
+      <RenameChannelsIds />
+    </CSourceConfigData>
+  </SourceConfigData>
+</CConfigData>

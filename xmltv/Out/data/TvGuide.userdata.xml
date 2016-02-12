@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CEPGUserData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ChannelsByGroup>
+    <item>
+      <key>
+        <string>Movies</string>
+      </key>
+      <value>
+        <ArrayOfString>
+          <string>SkyAction.de</string>
+          <string>SkyAtlanticHD.de</string>
+          <string>SkyCinema.de</string>
+          <string>SkyCinemaPlus1.de</string>
+          <string>SkyCinemaPlus24.de</string>
+          <string>SkyCinemaHits.de</string>
+          <string>SkyComedy.de</string>
+          <string>Tele5.at</string>
+          <string>CinemaComedyHD.it</string>
+          <string>Cult.it</string>
+          <string>SKYCinema1.it</string>
+          <string>CinemaHits.it</string>
+          <string>CinemaMax.it</string>
+          <string>TV1000</string>
+          <string>TV1000 Action</string>
+          <string>TV1000 Premium</string>
+          <string>Canalplus.pl</string>
+          <string>CanalplusFilm.pl</string>
+          <string>Cinemax.pl</string>
+          <string>Cinemax2.pl</string>
+          <string>HBO.pl</string>
+          <string>HBO2.pl</string>
+          <string>HBOComedy.pl</string>
+          <string>canalplusHD.sp</string>
+          <string>cplusaccionHD.sp</string>
+          <string>CanalPlusComediaHD.sp</string>
+          <string>CanalPlusDCine.sp</string>
+          <string>CanalPlusXtra.sp</string>
+          <string>TV1000Action.dk</string>
+          <string>TV1000Drama.dk</string>
+          <string>TV1000.se</string>
+          <string>TV1000Action.se</string>
+          <string>ViasatComedy.dk</string>
+          <string>TV1000Drama.se</string>
+        </ArrayOfString>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Series</string>
+      </key>
+      <value>
+        <ArrayOfString>
+          <string>AXN.de</string>
+          <string>Fox.de</string>
+          <string>SciFi.de</string>
+          <string>TNTSerie.de</string>
+          <string>AXN.it</string>
+          <string>AXNSciFi.it</string>
+          <string>Boing.it</string>
+          <string>Fox.it</string>
+          <string>FoxCrime.it</string>
+          <string>Fox.pl</string>
+          <string>AXNhd.sp</string>
+          <string>CosmopolitanHD.es</string>
+          <string>Fox.sp</string>
+          <string>Nitro.sp</string>
+          <string>Nova.sp</string>
+          <string>Scifi.sp</string>
+        </ArrayOfString>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Docus</string>
+      </key>
+      <value>
+        <ArrayOfString>
+          <string>explorer</string>
+          <string>history</string>
+          <string>Discovery Channel</string>
+          <string>Discovery.pl</string>
+          <string>DiscoveryScience.pl</string>
+          <string>DiscoveryWorld.pl</string>
+        </ArrayOfString>
+      </value>
+    </item>
+  </ChannelsByGroup>
+  <ScheduledProgramms />
+  <TagedProgramms />
+</CEPGUserData>

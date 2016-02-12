@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sources>
+
+<channel name="">
+    <url></url>
+</channel>
+
+<source type="gen_xmltv" channels="">
+	<description>Rytec Germany/Austria/Swiss XMLTV</description>
+	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvGermany.gz</url>
+	<url>http://www.xmltvepg.nl/rytecxmltvGermany.gz</url>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvGermany.gz</url>
+	<url>http://rytecepg.wanwizard.eu/rytecxmltvGermany.gz</url>
+</source>
+<source type="gen_xmltv" channels="">
+	<description>Rytec Sweden XMLTV</description>
+	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvnordic.gz</url>
+	<url>http://www.xmltvepg.nl/rytecxmltvnordic.gz</url>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvnordic.gz</url>
+	<url>http://rytecepg.wanwizard.eu/rytecxmltvnordic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
+	<description>Rytec Poland XMLTV</description>
+	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Poland.gz</url>
+	<url>http://www.xmltvepg.nl/rytecxmltv-Poland.gz</url>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Poland.gz</url>
+	<url>http://rytecepg.wanwizard.eu/rytecxmltv-Poland.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://linux-sat.tv/epg/ls.channels.xml.gz">
+	<description>Linuxsat ExUSSR XMLTV</description>
+	<url>http://epg.in.ua/epg/tvprogram_ua_ru.gz</url>
+</source>
+
+</sources>

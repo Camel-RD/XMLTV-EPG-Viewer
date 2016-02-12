@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="latin-1"?>
+<sources>
+
+<!--
+You can list as many <source> entries in a file as you wish.
+Files or urls for sources and channels ending in '.gz' will be treated as
+gzipped and decompressed while processing.
+Use the "type" attribute to set the python module that handles the file,
+currently only type="gen_xmltv" is supported, more will follow once this plugin
+gets more popular.
+The channels property is the local file or URL with channel ID to service ref
+mappings. The default is the same filename but with .channels.xml as extension.
+Each source may use a different channels definition, or multiple sources may use
+the same, whatever is convenient.
+The description must be unique for each source, and is displayed on the UI.
+-->
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Benelux XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvBenelux.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Bulgaria XMLTV</description>
+	<url>http://www.vuplus-community.net/rytecxmltv-Bulgaria.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-denmark.xml.gz">
+	<description>Rytec Denmark XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvnordic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Erotic XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltverotic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-finland.xml.gz">
+	<description>Rytec Finland XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvnordic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec France XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvFrance.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Germany/Austria/Swiss XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvGermany.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Greece XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Greece.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-greece-en.xml.gz">
+	<description>Rytec Greece in English XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Greece.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Hungary XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Hungary.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Israel XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvosn.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Italy XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvItaly.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-norway.xml.gz">
+	<description>Rytec Norway XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvnordic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Middle East XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvosn.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Poland XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Poland.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Portugal XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Portugal.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Romania XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Romania.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Serbia/Croatia/Montenegro XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvexyu.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Slovak/Czech XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Czech.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-slovenia.xml.gz">
+	<description>Rytec Slovenia XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvexyu.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Spain XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-Spain.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-sweden.xml.gz">
+	<description>Rytec Sweden XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltvnordic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/digiturk.channels.xml.gz">
+	<description>Turkey XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/digiturk.xmltv.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec UK XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-UK.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/VirginUK.channels.xml.gz">
+	<description>Rytec Virgin UK XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-UK.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Horizons.channels.xml.gz">
+	<description>Rytec Csat Africa XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-CSatOverseas.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Reunion.channels.xml.gz">
+	<description>Rytec Csat Reunion XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-CSatOverseas.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/CsatCarabean.channels.xml.gz">
+	<description>Rytec Csat Carabean XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-CSatOverseas.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/NewCaledonia.channels.xml.gz">
+	<description>Rytec New Caledonia XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecxmltv-CSatOverseas.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://epg.in.ua/epg/ls.channels.xml.gz">
+	<description>Linuxsat ExUSSR XMLTV</description>
+	<url>http://epg.in.ua/epg/tvprogram_ua_ru.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
+   <description>Epg-Sat.de (Russian)/ by Taljaka (XML)</description>
+   <url>http://www.epg-sat.de/epg/xmltv-ru.xml.gz</url>
+</source>
+<source type="epg.dat" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
+   <description>Epg-Sat.de (Russian)/ SAT/IPTV small (EPG.DAT)</description>
+   <url>http://epg-sat.de/epg/epg.datallru.gz</url>
+</source>
+<source type="epg.dat" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
+   <description>Epg-Sat.de (Russian)/ SAT/IPTV big (EPG.DAT)</description>
+   <url>http://epg-sat.de/epg/epg.datfull.gz</url>
+</source>
+
+</sources>
