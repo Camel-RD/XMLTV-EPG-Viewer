@@ -435,7 +435,9 @@ namespace xmltv
             GzFileName = Utils.GetFileNameFromURL(url);
             XMLFileName = Utils.RemoveExt(GzFileName) + ".xml";
             XMLFullFileName = TopManager.TempFolder + "\\" + XMLFileName;
-            using (XmlReader xmlReader = XmlReader.Create(XMLFullFileName))
+            var st = new XmlReaderSettings();
+            st.DtdProcessing = DtdProcessing.Ignore;
+            using (XmlReader xmlReader = XmlReader.Create(XMLFullFileName, st))
             {
                 ReadAllChannels(xmlReader);
                 xmlReader.Close();
@@ -463,7 +465,9 @@ namespace xmltv
             XMLFileName = Utils.RemoveExt(GzFileName) + ".xml";
             XMLFullFileName = TopManager.TempFolder + "\\" + XMLFileName;
             FillKeepChannelsById();
-            using (XmlReader xmlReader = XmlReader.Create(XMLFullFileName))
+            var st = new XmlReaderSettings();
+            st.DtdProcessing = DtdProcessing.Ignore;
+            using (XmlReader xmlReader = XmlReader.Create(XMLFullFileName, st))
             {
                 ReadData(xmlReader);
                 xmlReader.Close();
