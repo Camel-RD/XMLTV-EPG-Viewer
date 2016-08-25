@@ -56,7 +56,31 @@ namespace xmltv
             InitializeComponent();
             loadFromWebSelectedtoolStripMenuItem.DropDown.Closing +=
                 loadFromWebSelectedtoolStripMenuItem_DropDown_Closing;
+            menuStrip1.Renderer.RenderItemCheck += Renderer_RenderItemCheck;
+        }
 
+        private void ScalePoint(ref Point p, float fx, float fy, int dx = 0, int dy = 0)
+        {
+            p.X = (int)((float)p.X * fx) + dx;
+            p.Y = (int)((float)p.Y * fy) + dy;
+        }
+
+        private void Renderer_RenderItemCheck(object sender, ToolStripItemImageRenderEventArgs e)
+        {
+            Rectangle rc = new Rectangle(e.ImageRectangle.Left - 2, 1, e.ImageRectangle.Width + 4, e.Item.Height - 2);
+            var pen = new Pen(ForeColor, 2f);
+            var p1 = new Point(5, 6);
+            var p2 = new Point(7, 9);
+            var p3 = new Point(11, 4);
+            float fx = rc.Width / 16.0f;
+            float fy = rc.Height / 16.0f;
+            ScalePoint(ref p1, fx, fy, rc.Left, rc.Top);
+            ScalePoint(ref p2, fx, fy, rc.Left, rc.Top);
+            ScalePoint(ref p3, fx, fy, rc.Left, rc.Top);
+            var ps = new[] { p1, p2, p3 };
+            e.Graphics.DrawLines(pen, ps);
+
+            pen.Dispose();
         }
 
         private void MainForm_Load(object sender, EventArgs e)
