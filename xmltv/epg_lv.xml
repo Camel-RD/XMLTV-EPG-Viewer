@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tv>
+  <channel id="LNT">
+    <display-name>LNT</display-name>
+  </channel>
+  <channel id="LTV1">
+    <display-name>LTV1</display-name>
+  </channel>
+  <channel id="LTV7">
+    <display-name>LTV7</display-name>
+  </channel>
+  <channel id="TV1000">
+    <display-name>TV1000</display-name>
+  </channel>
+  <channel id="TV1000 Action">
+    <display-name>TV1000 Action</display-name>
+  </channel>
+  <channel id="TV1000 Premium">
+    <display-name>TV1000 Premium</display-name>
+  </channel>
+  <channel id="TV3">
+    <display-name>TV3</display-name>
+  </channel>
+  <channel id="TV6">
+    <display-name>TV6</display-name>
+  </channel>
+  <programme start="20170116211000 +0200" stop="20170116221000 +0200" channel="LNT">
+    <title>Overtime Tv 7</title>
+    <desc>Raidījumā “Overtime TV” tiks apskatīti un analizēti sporta pasaules notikumi.</desc>
+  </programme>
+  <programme start="20170116221000 +0200" stop="20170116230000 +0200" channel="LNT">
+    <title>Čikāgas sardzē</title>
+    <desc>Spriedzes seriāls par Čikāgas 21.rajona policijas nodaļas darbu, attiecībām un ikdienu. (S1, Ep3)</desc>
+  </programme>
+  <programme start="20170116230000 +0200" stop="20170116232000 +0200" channel="LNT">
+    <title>Dzīvīte</title>
+  </programme>
+  <programme start="20170116232000 +0200" stop="20170117000500 +0200" channel="LNT">
+    <title>Lnt ziņu Top 10</title>
+    <desc>Iknedēļas analītiskais raidījums LNT Ziņu TOP 10 LNT ēterā šoruden uzsāks jau septīto sezonu.</desc>
+  </programme>
+  <programme start="20170117000500 +0200" stop="20170117003000 +0200" channel="LNT">
+    <title>Attīstības kods 3</title>
+  </programme>
+  <programme start="20170117003000 +0200" stop="20170117005500 +0200" channel="LNT">
+    <title>Degpunktā 7</title>
+  </programme>
+  <programme start="20170117005500 +0200" stop="20170117023500 +0200" channel="LNT">
+    <title>Lnt rīta ziņu raidījums ”900 sekundes”</title>
+  </programme>
+  <programme start="20170117023500 +0200" stop="20170117025900 +0200" channel="LNT">
+    <title>Karamba!</title>
+  </programme>
+  <programme start="20170117030000 +0200" stop="20170117031500 +0200" channel="LNT">
+    <title>Karamba!</title>
+  </programme>
+  <programme start="20170117031500 +0200" stop="20170117033000 +0200" channel="LNT">
+    <title>Bernards 2</title>
+    <desc>Stāsts par polārlāci Bernardu, kura milzīgā ziņkārība sagādā viņam daudz piedzīvojumu un smieklīgu brīžu.</desc>
+  </programme>
+  <programme start="20170117033000 +0200" stop="20170117040000 +0200" channel="LNT">
+    <title>Kristīgā programma “Ticīgo uzvaras balss”</title>
+  </programme>
+  <programme start="20170117040000 +0200" stop="20170117043000 +0200" channel="LNT">
+    <title>30 minūtes virtuvē ar Džeimiju Oliveru 2</title>
+    <desc>Arī otrajā pasaulē populārā raidījuma sezonā pavārs Džeimijs Olivers dara to, kas viņam padodas vislabāk</desc>
+  </programme>
+  <programme start="20170117043000 +0200" stop="20170117064000 +0200" channel="LNT">
+    <title>Lnt rīta ziņu raidījums ”900 sekundes”</title>
+  </programme>
+  <programme start="20170117064000 +0200" stop="20170117071000 +0200" channel="LNT">
+    <title>Dzīvīte</title>
+  </programme>
+  <programme start="20170117071000 +0200" stop="20170117080500 +0200" channel="LNT">
+    <title>Atpazīsti mani, ja vari</title>
+    <desc>Iļja ir jauns un pievilcīgs puisis, kuram ir viss, kas nepieciešms pilnai laimei – mīļotā meitene Aļisa, laimīga ģimene, uzticami draugi un lielisks darbs.</desc>
+  </programme>
+  <programme start="20170117080500 +0200" stop="20170117082000 +0200" channel="LNT">
+    <title>Televeikala skatlogs</title>
+  </programme>
+  <programme start="20170117082000 +0200" stop="20170117092500 +0200" channel="LNT">
+    <title>Kaislību jūrā</title>
+    <desc>Marina ir jauna un pašpārliecināta sieviete, kura pēkšņi zaudē darbu. Par laimi viņa saņem jaunu izaicinājumu no noslēpumainas sievietes Mersedesas, kuras uzņēmums atrodas uz bankrota robežas.</desc>
+  </programme>
+  <programme start="20170117092500 +0200" stop="20170117103500 +0200" channel="LNT">
+    <title>Lieliskais gadsimts</title>
+    <desc>Seriāla darbība norisinās desmitā Osmaņu impērijas sultāna Suleimana I galmā.</desc>
+  </programme>
+  <programme start="20170117103500 +0200" stop="20170117114500 +0200" channel="LNT">
+    <title>Lieliskais gadsimts</title>
+    <desc>Seriāla darbība norisinās desmitā Osmaņu impērijas sultāna Suleimana I galmā.</desc>
+  </programme>
+  <programme start="20170117114500 +0200" stop="20170117120000 +0200" channel="LNT">
+    <title>Televeikala skatlogs</title>
+  </programme>
+  <programme start="20170117120000 +0200" stop="20170117122000 +0200" channel="LNT">
+    <title>Lnt Dienas ziņas</title>
+  </programme>
+  <programme start="20170117122000 +0200" stop="20170117125500 +0200" channel="LNT">
+    <title>30 minūtes virtuvē ar Džeimiju Oliveru 2</title>
+    <desc>Arī otrajā pasaulē populārā raidījuma sezonā pavārs Džeimijs Olivers dara to, kas viņam padodas vislabāk</desc>
+  </programme>
+  <programme start="20170117125500 +0200" stop="20170117135000 +0200" channel="LNT">
+    <title>Bērni un vecāki 3</title>
+    <desc>Stāsts par ģimeni – tēvu Zīku, mammu Kamillu un viņu pēcnācējiem. Viņu noturējušies laulībā četrdesmit sešus gadus, visas problēmas un nesaskaņas nogludinot bērnu dēļ.</desc>
+  </programme>
+  <programme start="20170117135000 +0200" stop="20170117145000 +0200" channel="LNT">
+    <title>Nemelo man!</title>
+    <desc>Psiholoģisks seriāls, kura mērķis ir atrisināt reālas problēmas, kas samilzušas starp kādiem cilvēkiem, kā arī atrast izeju no sarežģītām dzīves situācijām.</desc>
+  </programme>
+  <programme start="20170117145000 +0200" stop="20170117155000 +0200" channel="LNT">
+    <title>Kaisle un vara</title>
+    <desc>Jau jaunībā Elādio un Artūro bija niknākie ienaidnieki. Gadiem ilgi abi ietekmīgie uzņēmēji bijuši sāncenši biznesā, bet jo īpaši – par Hūlijas mīlestību.</desc>
+  </programme>
+  <programme start="20170117155000 +0200" stop="20170117160000 +0200" channel="LNT">
+    <title>Ziņas sešos</title>
+  </programme>
+  <programme start="20170117160000 +0200" stop="20170117165500 +0200" channel="LNT">
+    <title>Mani virtuves noslēpumi</title>
+    <desc>Pavisam vienkārši, dažādu profesiju cilvēki, kuru kaislības ir ēdiens un gatavošana, metas aizraujošā piedzīvojumā – pierādīt, ka tieši viņi ir labākie pavāri Austrālijā.</desc>
+  </programme>
+  <programme start="20170117165500 +0200" stop="20170117180000 +0200" channel="LNT">
+    <title>Gonula</title>
+    <desc>Gonula ir uzaugusi bērnu namā, izmācījusies par medmāsu un nodevusies savam sirds darbam. Viņa gatavojas precēties ar Tekinu – cienītu, veiksmīgu un daudzsološu ķirurgu no bagātas un ietekmīgas ģimene</desc>
+  </programme>
+  <programme start="20170117180000 +0200" stop="20170117184000 +0200" channel="LNT">
+    <title>Lnt Ziņas</title>
+    <desc>LNT ziņu raidījumu panākumi ir skaidrojami ar žurnālistu profesionālo darbu, kuri gatavo jaunākās un aktuālākas ziņas no Latvijas un pasaules.</desc>
+  </programme>
+  <programme start="20170117184000 +0200" stop="20170117191000 +0200" channel="LNT">
+    <title>Degpunktā 7</title>
+  </programme>
+  <programme start="20170117191000 +0200" stop="20170117211000 +0200" channel="LNT">
+    <title>Rozamunde Pilčere. Mīlas uzvara</title>
+    <desc>Mārketinga studente Emma ar cerībām skatās uz brīvdienām, ko ieplānojusi pavadīt kopā ar savu izredzēto Robertu, iepazīstinot viņu ar savu ģimeni.</desc>
+  </programme>
+  <programme start="20170117211000 +0200" stop="20170117220500 +0200" channel="LNT">
+    <title>Apmierini mani 2</title>
+    <desc>Nīlam un Greisai ir tikai divas iespējas – atklāt savus noslēpumus un mēģināt glābt laulību vai arī šķirties. Ko viņi izvēlēsies?</desc>
+  </programme>
+  <programme start="20170116215500 +0200" stop="20170116224000 +0200" channel="LTV1">
+    <title>Nacionālie dārgumi. 100 g kultūras. (atkārtojums)</title>
+  </programme>
+  <programme start="20170116224000 +0200" stop="20170117030000 +0200" channel="LTV1">
+    <title>Viktora Lapčenoka jubilejas koncerts. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117030000 +0200" stop="20170117033000 +0200" channel="LTV1">
+    <title>Ceturtā studija. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117033000 +0200" stop="20170117040000 +0200" channel="LTV1">
+    <title>Ielas garumā. (atkārtojums)</title>
+    <desc>ar subtitriem</desc>
+  </programme>
+  <programme start="20170117040000 +0200" stop="20170117040200 +0200" channel="LTV1">
+    <title>Latvijas Republikas valsts himna.</title>
+  </programme>
+  <programme start="20170117040200 +0200" stop="20170117043000 +0200" channel="LTV1">
+    <title>700 pasaules brīnumi. Bosnija un Hercegovina. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117043000 +0200" stop="20170117063500 +0200" channel="LTV1">
+    <title>Rīta Panorāma.</title>
+  </programme>
+  <programme start="20170117063500 +0200" stop="20170117073500 +0200" channel="LTV1">
+    <title>Mīlas viesulis 11. Vācijas seriāls. 2365. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117073500 +0200" stop="20170117083500 +0200" channel="LTV1">
+    <title>Plosītās sirdis. Seriāls. 91. sērija.</title>
+    <desc>ar subtitriem</desc>
+  </programme>
+  <programme start="20170117083500 +0200" stop="20170117085000 +0200" channel="LTV1">
+    <title>Televeikala skatlogs "Top-Shop" piedāvā.</title>
+  </programme>
+  <programme start="20170117085000 +0200" stop="20170117091500 +0200" channel="LTV1">
+    <title>Ceturtā studija. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117091500 +0200" stop="20170117110000 +0200" channel="LTV1">
+    <title>Policists un policiste. Romantiska filma.</title>
+  </programme>
+  <programme start="20170117110000 +0200" stop="20170117111500 +0200" channel="LTV1">
+    <title>Televeikala skatlogs "Top-Shop" piedāvā.</title>
+  </programme>
+  <programme start="20170117111500 +0200" stop="20170117115000 +0200" channel="LTV1">
+    <title>Province. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117115000 +0200" stop="20170117122000 +0200" channel="LTV1">
+    <title>Mia un es 2. Animācijas seriāls. 24. sērija.</title>
+  </programme>
+  <programme start="20170117122000 +0200" stop="20170117125000 +0200" channel="LTV1">
+    <title>Uzmanību, gatavību, kosmosā! Animācijas seriāls. 3., 4. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117125000 +0200" stop="20170117130500 +0200" channel="LTV1">
+    <title>Televeikala skatlogs "Top-Shop" piedāvā.</title>
+  </programme>
+  <programme start="20170117130500 +0200" stop="20170117140500 +0200" channel="LTV1">
+    <title>Kalnu patruļa 2. Piedzīvojumu seriāls. 3. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117140500 +0200" stop="20170117150000 +0200" channel="LTV1">
+    <title>Plosītās sirdis. Seriāls. 90. sērija.</title>
+    <desc>ar subtitriem</desc>
+  </programme>
+  <programme start="20170117150000 +0200" stop="20170117160000 +0200" channel="LTV1">
+    <title>Mīlas viesulis 11. Vācijas seriāls. 2365. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117160000 +0200" stop="20170117162900 +0200" channel="LTV1">
+    <title>Dienas ziņas.</title>
+    <desc>ar surdotulkojumu</desc>
+  </programme>
+  <programme start="20170117162900 +0200" stop="20170117164400 +0200" channel="LTV1">
+    <title>Kultūras ziņas.</title>
+    <desc>ar surdotulkojumu</desc>
+  </programme>
+  <programme start="20170117164400 +0200" stop="20170117165300 +0200" channel="LTV1">
+    <title>Sporta ziņas.</title>
+    <desc>ar surdotulkojumu</desc>
+  </programme>
+  <programme start="20170117165300 +0200" stop="20170117165600 +0200" channel="LTV1">
+    <title>Laika ziņas.</title>
+  </programme>
+  <programme start="20170117165600 +0200" stop="20170117172700 +0200" channel="LTV1">
+    <title>Ceturtā studija.</title>
+  </programme>
+  <programme start="20170117172700 +0200" stop="20170117173000 +0200" channel="LTV1">
+    <title>Laika ziņas.</title>
+  </programme>
+  <programme start="20170117173000 +0200" stop="20170117183000 +0200" channel="LTV1">
+    <title>Personība. 100 g kultūras.</title>
+  </programme>
+  <programme start="20170117183000 +0200" stop="20170117185900 +0200" channel="LTV1">
+    <title>Panorāma.</title>
+  </programme>
+  <programme start="20170117185900 +0200" stop="20170117190800 +0200" channel="LTV1">
+    <title>Sporta ziņas.</title>
+  </programme>
+  <programme start="20170117190800 +0200" stop="20170117191500 +0200" channel="LTV1">
+    <title>Laika ziņas.</title>
+  </programme>
+  <programme start="20170117191500 +0200" stop="20170117200500 +0200" channel="LTV1">
+    <title>1:1. Aktuālā intervija.</title>
+  </programme>
+  <programme start="20170117200500 +0200" stop="20170117202000 +0200" channel="LTV1">
+    <title>Patiesības stunda.</title>
+  </programme>
+  <programme start="20170117202000 +0200" stop="20170117212500 +0200" channel="LTV1">
+    <title>Laipni lūgti Trampzemē! Dokumentāla filma. TV PIRMIZRĀDE.</title>
+    <desc>oriģinālvalodas izvēle, ar subtitriem</desc>
+  </programme>
+  <programme start="20170117212500 +0200" stop="20170117213400 +0200" channel="LTV1">
+    <title>Nakts ziņas.</title>
+  </programme>
+  <programme start="20170117213400 +0200" stop="20170117213600 +0200" channel="LTV1">
+    <title>Sporta ziņas.</title>
+  </programme>
+  <programme start="20170117213600 +0200" stop="20170117214000 +0200" channel="LTV1">
+    <title>Laika ziņas.</title>
+  </programme>
+  <programme start="20170117214000 +0200" stop="20170117234000 +0200" channel="LTV1">
+    <title>Romai ar mīlestību. Romantiska komēdija.</title>
+    <desc>oriģinālvalodas izvēle, ar subtitriem</desc>
+  </programme>
+  <programme start="20170116211500 +0200" stop="20170116231000 +0200" channel="LTV7">
+    <title>Midsomeras slepkavības 1. Detektīvseriāls. 2. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170116231000 +0200" stop="20170116232500 +0200" channel="LTV7">
+    <title>Momentuzņēmums. (atkārtojums)</title>
+  </programme>
+  <programme start="20170116232500 +0200" stop="20170117030000 +0200" channel="LTV7">
+    <title>Labākais no Euromaxx. Deutsche Welle žurnāls. (Angļu val. ar subtitriem)</title>
+  </programme>
+  <programme start="20170117030000 +0200" stop="20170117033000 +0200" channel="LTV7">
+    <title>Automoto raidījums nr.2.Televeikala skatlogs. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117033000 +0200" stop="20170117040000 +0200" channel="LTV7">
+    <title>1000 jūdzes līdz Eņģeļu pilsētai.6.sērija. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117040000 +0200" stop="20170117040300 +0200" channel="LTV7">
+    <title>Latvijas Republikas valsts himna.</title>
+  </programme>
+  <programme start="20170117040300 +0200" stop="20170117043000 +0200" channel="LTV7">
+    <title>1000 jūdzes līdz Eņģeļu pilsētai.7.sērija. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117043000 +0200" stop="20170117050000 +0200" channel="LTV7">
+    <title>Eiropa fokusā. Deutsche Welle žurnāls. (Angļu val. ar subtitriem)</title>
+  </programme>
+  <programme start="20170117050000 +0200" stop="20170117053000 +0200" channel="LTV7">
+    <title>Ceturtā studija. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117053000 +0200" stop="20170117060000 +0200" channel="LTV7">
+    <title>Citādi latviskais (Cytaidi latviskais). (atkārtojums)</title>
+    <desc>ar subtitriem</desc>
+  </programme>
+  <programme start="20170117060000 +0200" stop="20170117065500 +0200" channel="LTV7">
+    <title>Latvijas novadu cīņas. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117065500 +0200" stop="20170117075500 +0200" channel="LTV7">
+    <title>Ar savu tautas dziesmu. Dzejnieks Jānis Peters. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117075500 +0200" stop="20170117080500 +0200" channel="LTV7">
+    <title>Mana virtuālā sirds. Dokumentāla filma.</title>
+  </programme>
+  <programme start="20170117080500 +0200" stop="20170117090000 +0200" channel="LTV7">
+    <title>Kalnu patruļa 2. Piedzīvojumu seriāls. 2. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117090000 +0200" stop="20170117095500 +0200" channel="LTV7">
+    <title>Majore Kosatkina. Detektīvseriāls.5.sērija. (krievu val. ar subtitriem)</title>
+  </programme>
+  <programme start="20170117095500 +0200" stop="20170117105500 +0200" channel="LTV7">
+    <title>Aizliegtais paņēmiens. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117105500 +0200" stop="20170117112500 +0200" channel="LTV7">
+    <title>Aktualitātes. Televeikala skatlogs. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117112500 +0200" stop="20170117122500 +0200" channel="LTV7">
+    <title>PK biatlonā. 7,5 km sprints sievietēm. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117122500 +0200" stop="20170117133500 +0200" channel="LTV7">
+    <title>PK biatlonā. 10 km iedzīšanas sprints sievietēm. (atkārtojums)</title>
+  </programme>
+  <programme start="20170117133500 +0200" stop="20170117140500 +0200" channel="LTV7">
+    <title>Vienmēr formā! Deutsche Welle žurnāls. (Angļu val. ar subtitriem)</title>
+  </programme>
+  <programme start="20170117140500 +0200" stop="20170117150000 +0200" channel="LTV7">
+    <title>Maklauda meitas. Romantiska daudzsēriju filma. 88. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117150000 +0200" stop="20170117160500 +0200" channel="LTV7">
+    <title>Dzīve šodien. (krievu val.)</title>
+  </programme>
+  <programme start="20170117160500 +0200" stop="20170117170000 +0200" channel="LTV7">
+    <title>Majore Kosatkina. Detektīvseriāls.6.sērija. (krievu val. ar subtitriem)</title>
+  </programme>
+  <programme start="20170117170000 +0200" stop="20170117172500 +0200" channel="LTV7">
+    <title>Segodņa večerom. Ziņas. (krievu val.)</title>
+  </programme>
+  <programme start="20170117172500 +0200" stop="20170117172900 +0200" channel="LTV7">
+    <title>Sporta ziņas. (krievu val.)</title>
+  </programme>
+  <programme start="20170117172900 +0200" stop="20170117173500 +0200" channel="LTV7">
+    <title>Laika ziņas. (krievu val.)</title>
+  </programme>
+  <programme start="20170117173500 +0200" stop="20170117180500 +0200" channel="LTV7">
+    <title>Ekstrēmie kadri 2. Dokumentāls seriāls. Notvert kadrā Milānu.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117180500 +0200" stop="20170117190500 +0200" channel="LTV7">
+    <title>Eksotiskās salas. Dokumentāla daudzsēriju filma. 2. sērija.</title>
+    <desc>oriģinālvalodas izvēle, ar subtitriem</desc>
+  </programme>
+  <programme start="20170117190500 +0200" stop="20170117195500 +0200" channel="LTV7">
+    <title>Maklauda meitas. Romantiska daudzsēriju filma. 89. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117195500 +0200" stop="20170117205000 +0200" channel="LTV7">
+    <title>Tēvs Brauns 5. Detektīvseriāls. 1. sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117205000 +0200" stop="20170117214500 +0200" channel="LTV7">
+    <title>Lielais Gregs. Seriāls.35.sērija.</title>
+    <desc>oriģinālvalodas izvēle</desc>
+  </programme>
+  <programme start="20170117214500 +0200" stop="20170117224500 +0200" channel="LTV7">
+    <title>Atgriešanās. Mistiska daudzsēriju drāma. 2. sērija.</title>
+    <desc>oriģinālvalodas izvēle, ar subtitriem</desc>
+  </programme>
+  <programme start="20170116210000 +0200" stop="20170116232500 +0200" channel="TV1000">
+    <title>Nepakļaujamais</title>
+    <desc>Biogrāfiska drāma, kuras pamatā ir epizode no DĀR pirmā melnādainā prezidenta dzīves. Nelsona Mandelas lomā redzēsiet Morganu Frīmenu. Filma nominēta balvām "Oskars" un "Zelta globuss". 2009</desc>
+  </programme>
+  <programme start="20170116232500 +0200" stop="20170117012500 +0200" channel="TV1000">
+    <title>Tauriņa efekts</title>
+    <desc>Jauns vīrietis (Eštons Kučers) cieš no atmiņas zuduma, kas liedz atcerēties nozīmīgus dzīves notikumus. Pieaudzis viņš atrod iespēju atsaukt tos atmiņā un pārdabiskā veidā mainīt pagātni.</desc>
+  </programme>
+  <programme start="20170117012500 +0200" stop="20170117031000 +0200" channel="TV1000">
+    <title>Kārtējais pirmais randiņš</title>
+    <desc>Henrijs ir veterinārārsts Havaju salu ūdensparkā, kur viņš kopj un ārstē jūras dzīvniekus.</desc>
+  </programme>
+  <programme start="20170117031000 +0200" stop="20170117053000 +0200" channel="TV1000">
+    <title>Džerijs Makgvairs</title>
+    <desc>Šajā filmā, kas kļuvusi par mūsdienu klasiku, Toms Krūzs atveido ietekmīgu sporta aģentu, kurš piepeši zaudē visu. Tagad viņam jāsāk karjera no jauna.</desc>
+  </programme>
+  <programme start="20170117053000 +0200" stop="20170117072000 +0200" channel="TV1000">
+    <title>Ūdensmeitene</title>
+    <desc>Pola Džamati tēlotais varonis atrod jūras nimfu, kas nonākusi šajā pasaulē un mitinās kādas dzīvokļu ēkas peldbaseinā. Filma uzņemta 2006. gadā.</desc>
+  </programme>
+  <programme start="20170117072000 +0200" stop="20170117093500 +0200" channel="TV1000">
+    <title>Nepakļaujamais</title>
+    <desc>Biogrāfiska drāma, kuras pamatā ir epizode no DĀR pirmā melnādainā prezidenta dzīves. Nelsona Mandelas lomā redzēsiet Morganu Frīmenu. Filma nominēta balvām "Oskars" un "Zelta globuss". 2009</desc>
+  </programme>
+  <programme start="20170117093500 +0200" stop="20170117111500 +0200" channel="TV1000">
+    <title>Kīts</title>
+    <desc>Pat tad, ja tu kontrolē visu un precīzi zini, ko dzīvē gribi, mīlestībai ir savi plāni – un tā arī ir īstā dzīve... 2008</desc>
+  </programme>
+  <programme start="20170117111500 +0200" stop="20170117125500 +0200" channel="TV1000">
+    <title>Kārtējais pirmais randiņš</title>
+    <desc>Henrijs ir veterinārārsts Havaju salu ūdensparkā, kur viņš kopj un ārstē jūras dzīvniekus.</desc>
+  </programme>
+  <programme start="20170117125500 +0200" stop="20170117145000 +0200" channel="TV1000">
+    <title>Tauriņa efekts</title>
+    <desc>Jauns vīrietis (Eštons Kučers) cieš no atmiņas zuduma, kas liedz atcerēties nozīmīgus dzīves notikumus. Pieaudzis viņš atrod iespēju atsaukt tos atmiņā un pārdabiskā veidā mainīt pagātni.</desc>
+  </programme>
+  <programme start="20170117145000 +0200" stop="20170117171000 +0200" channel="TV1000">
+    <title>Džerijs Makgvairs</title>
+    <desc>Šajā filmā, kas kļuvusi par mūsdienu klasiku, Toms Krūzs atveido ietekmīgu sporta aģentu, kurš piepeši zaudē visu. Tagad viņam jāsāk karjera no jauna.</desc>
+  </programme>
+  <programme start="20170117171000 +0200" stop="20170117195000 +0200" channel="TV1000">
+    <title>Dzimis 4. jūlijā</title>
+    <desc>Jūras kājnieks Rons Koviks (Toms Krūzs) atgriežas no Vjetnamas paralizēts. Pēc mēnešiem ilgas, mokošas rehabilitācijas viņš saskata jaunu dzīves jēgu protestā pret karu, kurā savulaik lepni cīnījies.</desc>
+  </programme>
+  <programme start="20170117195000 +0200" stop="20170117213000 +0200" channel="TV1000">
+    <title>Dzimis 4. jūlijā</title>
+    <desc>Jūras kājnieks Rons Koviks (Toms Krūzs) atgriežas no Vjetnamas paralizēts. Pēc mēnešiem ilgas, mokošas rehabilitācijas viņš saskata jaunu dzīves jēgu protestā pret karu, kurā savulaik lepni cīnījies.</desc>
+  </programme>
+  <programme start="20170117213000 +0200" stop="20170117233000 +0200" channel="TV1000">
+    <title>Veronika grib mirt</title>
+    <desc>Veronika ir jauna sieviete, kas nolemj izdarīt pašnāvību. Pēc neveiksmīgā mēģinājuma viņa nonāk psihiatriskajā slimnīcā, kur viņa iemācās novērtēt savu dzīvi.</desc>
+  </programme>
+  <programme start="20170116201000 +0200" stop="20170116221000 +0200" channel="TV1000 Action">
+    <title>3 dienas, lai nogalinātu</title>
+    <desc>Mirstošs slepenais aģents mēģina atjaunot attiecības ar meitu. Viņam piedāvā eksperimentālas zāles, kas varētu izglābt viņa dzīvību, taču tas nozīmē, ka būs jāizpilda viens pēdējais uzdevums.</desc>
+  </programme>
+  <programme start="20170116221000 +0200" stop="20170116235500 +0200" channel="TV1000 Action">
+    <title>Solomons Keins</title>
+    <desc>Solomons Keins ir bijušais algotnis, kura dvēsele pieder Nelabajam. Viņš zvēr atteikties no vardarbības, taču ļaunie spēki pārbauda viņa apņemšanos. Lomās Makss fon Sīdovs un Pīts Postltvaits. 2009.g.</desc>
+  </programme>
+  <programme start="20170116235500 +0200" stop="20170117020900 +0200" channel="TV1000 Action">
+    <title>Hanibāls</title>
+    <desc>Pec izbēgšanas no psihiatriskās klīnikas dr. Hanibals Lekters slēpjas Florencē, Itālijā. Amerikā dzīvojošais doktora upuris Meisons Vergers vēlas atriebties. Sakropļots un piesaistīts dzīvību uzturēšanas sistēmai, viņš plāno Lekteru izdabūt no slēptuves, izmantojot vienīgo, kas viņam tiešām rūp - Klerisu Stārlingu.</desc>
+  </programme>
+  <programme start="20170117021000 +0200" stop="20170117041000 +0200" channel="TV1000 Action">
+    <title>Izmisuma stundas</title>
+    <desc>Kāds tēvs pēc viesuļvētras „Katrīna" cīnās par savas jaundzimušās meitas dzīvību. 2013</desc>
+  </programme>
+  <programme start="20170117041000 +0200" stop="20170117061000 +0200" channel="TV1000 Action">
+    <title>The Transporter Refueled</title>
+    <desc>In the south of France, former special-ops mercenary Frank Martin enters into a game of chess with a femme-fatale and her three sidekicks who are looking for revenge against a sinister mob boss. 2015</desc>
+  </programme>
+  <programme start="20170117061000 +0200" stop="20170117082000 +0200" channel="TV1000 Action">
+    <title>3 dienas, lai nogalinātu</title>
+    <desc>Mirstošs slepenais aģents mēģina atjaunot attiecības ar meitu. Viņam piedāvā eksperimentālas zāles, kas varētu izglābt viņa dzīvību, taču tas nozīmē, ka būs jāizpilda viens pēdējais uzdevums.</desc>
+  </programme>
+  <programme start="20170117082000 +0200" stop="20170117102000 +0200" channel="TV1000 Action">
+    <title>Prāta mednieki</title>
+    <desc>Kad FIB treniņa simulācija izvēršas šokējoši reāla un vienu no aģentiem piemeklē pēkšņa nāve, analītiķi atskārš, ka tas nav tikai gala eksāmens – tā ir cīņa par dzīvību.</desc>
+  </programme>
+  <programme start="20170117102000 +0200" stop="20170117122000 +0200" channel="TV1000 Action">
+    <title>Titānu cīņa</title>
+    <desc>Satriecošajā klasiska mitoloģiskā stāsta jaunajā versijā filmējas Liaems Nīsons, Sems Vortingtons un Džemma Artertone. Dievu panteons Olimpa kalnā cilvēkiem uzsūta monstru varzu.</desc>
+  </programme>
+  <programme start="20170117122000 +0200" stop="20170117142000 +0200" channel="TV1000 Action">
+    <title>Solomons Keins</title>
+    <desc>Solomons Keins ir bijušais algotnis, kura dvēsele pieder Nelabajam. Viņš zvēr atteikties no vardarbības, taču ļaunie spēki pārbauda viņa apņemšanos. Lomās Makss fon Sīdovs un Pīts Postltvaits. 2009.g.</desc>
+  </programme>
+  <programme start="20170117142000 +0200" stop="20170117161000 +0200" channel="TV1000 Action">
+    <title>Izmisuma stundas</title>
+    <desc>Kāds tēvs pēc viesuļvētras „Katrīna" cīnās par savas jaundzimušās meitas dzīvību. 2013</desc>
+  </programme>
+  <programme start="20170117161000 +0200" stop="20170117181000 +0200" channel="TV1000 Action">
+    <title>Gars</title>
+    <desc>Šajā slavenā komiksa ekranizācijā Semjuels Lī Džeksons iejuties ļaundara lomā. Viņa centieni iegūt nemirstību apdraud pilsētas iedzīvotājus. Lomās – Skārleta Johansone un Eva Mendesa. 2008. gads.</desc>
+  </programme>
+  <programme start="20170117181000 +0200" stop="20170117203500 +0200" channel="TV1000 Action">
+    <title>K-19</title>
+    <desc>Harisons Fords un Laiems Nīsons atveido galvenās lomas šai elpu aizraujošajā filmā, kas balstīta uz šausminošo notikumu 1961. gadā aukstā kara laikā.</desc>
+  </programme>
+  <programme start="20170117203500 +0200" stop="20170117222500 +0200" channel="TV1000 Action">
+    <title>Nāves klusums</title>
+    <desc>Atraitnis atgriežas dzimtajā pilsētiņā, lai izdibinātu patiesību par sievas nāvi, kas, iespējams, ir saistīta ar kāda noslepkavota vēderrunātāja rēgu.</desc>
+  </programme>
+  <programme start="20170116201000 +0200" stop="20170116220000 +0200" channel="TV1000 Premium">
+    <title>Borna pārspēks</title>
+    <desc>„Borna” triloģijas otrā filma ar Metu Deimonu bijušā CIP slepkavas lomā.</desc>
+  </programme>
+  <programme start="20170116220000 +0200" stop="20170117000000 +0200" channel="TV1000 Premium">
+    <title>Atpakaļ nākotnē 2</title>
+    <desc>Mārtijs un Doks dodas uz 2015. gadu, lai noskaidrotu, kā veicas Makflaju ģimenei, taču jau atkal rodas sarežģījumi, kas viņiem liek atgriezties pagātnē. Filma uzņemta 1989. gadā.</desc>
+  </programme>
+  <programme start="20170117000000 +0200" stop="20170117020000 +0200" channel="TV1000 Premium">
+    <title>Ex Machina</title>
+    <desc>Jaunu programmētāju pieņem darbā dalībai eksperimentā, kura laikā ir jānovērtē daiļa robota mākslīgais intelekts, taču ir iespējams, ka šis robots patiesībā vērtē puisi. 2015</desc>
+  </programme>
+  <programme start="20170117020000 +0200" stop="20170117040000 +0200" channel="TV1000 Premium">
+    <title>Septītais dēls</title>
+    <desc>Ragana Malkina izbēg no gūsta, kam viņu bija lēmis briesmoņu mednieks Spūks, un nogalina viņa mācekli. Spūks atrod jaunu palīgu - Tomu, kurš ir septītā dēla septītais dēls. 2014</desc>
+  </programme>
+  <programme start="20170117040000 +0200" stop="20170117054000 +0200" channel="TV1000 Premium">
+    <title>Zudusī pasaule</title>
+    <desc>Vils Ferels atveido neveiksmīgu zinātnieku, kurš, ceļojot laikā, nonāk laupītājdinozauru pasaulē.</desc>
+  </programme>
+  <programme start="20170117054000 +0200" stop="20170117074000 +0200" channel="TV1000 Premium">
+    <title>Borna mīklainā personība</title>
+    <desc>Mets Deimons tēlo cilvēku, kas tik tikko dzīvs izvilkts no Vidusjūras un cieš no atmiņas zuduma. Viņš dodas savas identitātes meklējumos, bet konstatē, ka CIP visiem spēkiem vēlas to slēpt.</desc>
+  </programme>
+  <programme start="20170117074000 +0200" stop="20170117095000 +0200" channel="TV1000 Premium">
+    <title>Ātrs un bez žēlastības 5</title>
+    <desc>Piektā „Ātrs un bez žēlastības” filma, kurā Vina Dīzela un Pola Vokera varoņi no jauna tiekas ar iepriekšējo filmu zvaigznēm. Filma uzņemta 2011. gadā.</desc>
+  </programme>
+  <programme start="20170117095000 +0200" stop="20170117120000 +0200" channel="TV1000 Premium">
+    <title>Borna pārspēks</title>
+    <desc>„Borna” triloģijas otrā filma ar Metu Deimonu bijušā CIP slepkavas lomā.</desc>
+  </programme>
+  <programme start="20170117120000 +0200" stop="20170117133000 +0200" channel="TV1000 Premium">
+    <title>Minjoni</title>
+    <desc>Minjonus Stjuartu, Kevinu un Bobu pieņem darbā superļaundare Skārleta Nomušīta, kura kopā ar savu vīru - izgudrotāju Hērbu - perina pasaules iekarošanas plānu. 2015</desc>
+  </programme>
+  <programme start="20170117133000 +0200" stop="20170117162000 +0200" channel="TV1000 Premium">
+    <title>Austrālija</title>
+    <desc>Nikola Kidmena un Hjū Džekmens kopā ar „Mulinrūžas” režisoru Bazu Lurmenu radījuši episku drāmu, kurā darbība notiek īsi pirms Otrā pasaules kara.</desc>
+  </programme>
+  <programme start="20170117162000 +0200" stop="20170117180000 +0200" channel="TV1000 Premium">
+    <title>Laupīšana</title>
+    <desc>Kāds tēvs kopā ar kolēģi aplaupa kazino, lai samaksātu par meitas ārstēšanu. Kad abu plāns noiet greizi, viņi mēģina aizbēgt, nozogot pilsētas autobusu. 2015</desc>
+  </programme>
+  <programme start="20170117180000 +0200" stop="20170117200000 +0200" channel="TV1000 Premium">
+    <title>Atkritumi</title>
+    <desc>Trīs brazīliešu zēni izgāztuvē atrod maku, kura saturs uz visiem laikiem mainīs viņu dzīvi. 2014</desc>
+  </programme>
+  <programme start="20170117200000 +0200" stop="20170117220000 +0200" channel="TV1000 Premium">
+    <title>Ātrs un bez žēlastības 4</title>
+    <desc>Ceturtajā „Ātrs un bez žēlastības” filmu sērijā Braiens O’Koners, kas nu strādā Losandželosas FIB, sadarbojas ar Dominiku Toreto, lai uzveiktu kādu heroīna importētāju, iefiltrējoties viņa operācijā.</desc>
+  </programme>
+  <programme start="20170117220000 +0200" stop="20170117234000 +0200" channel="TV1000 Premium">
+    <title>Aklais randiņš</title>
+    <desc>Kad vientuļa sieviete, kurai neveicas mīlestībā, nejauši nonāk kādas citas aklajā randiņā, šķiet, ka viņas neveiksmes ir beigušās. Galvenajā lomā Saimons Pegs. 2015</desc>
+  </programme>
+  <programme start="20170116215500 +0200" stop="20170116224500 +0200" channel="TV3">
+    <title>Nekā Personīga</title>
+    <desc>Raidījuma “Nekā personīga” ik svētdienu saviem skatītājiem piedāvā nedēļas notikumu un procesu skaidrojumu un atklāj norises, kas būs svarīgas arī turpmāk.</desc>
+  </programme>
+  <programme start="20170116224500 +0200" stop="20170116230500 +0200" channel="TV3">
+    <title>Melu teorija</title>
+    <desc>Mēs visi gribētu cerēt, ka mediji ir tie, kas mums sniedz patiesu, precīzu un analītisku informāciju, tomēr tā ne vienmēr notiek.</desc>
+  </programme>
+  <programme start="20170116230500 +0200" stop="20170116233500 +0200" channel="TV3">
+    <title>Sveika, Rīga!</title>
+  </programme>
+  <programme start="20170116233500 +0200" stop="20170117000000 +0200" channel="TV3">
+    <title>Mindijas projekts</title>
+    <desc>Mindija ir 31 gadu veca ginekoloģe, kurai ļoti neveicas personīgajā dzīvē. Viņa ir nesen izšķīrusies no ilggadīgā drauga, un attiecību saraušanas process nav bijis ne viegls, ne patīkams. (S1, Ep1)</desc>
+  </programme>
+  <programme start="20170117000000 +0200" stop="20170117003000 +0200" channel="TV3">
+    <title>Mindijas projekts</title>
+    <desc>Mindija ir 31 gadu veca ginekoloģe, kurai ļoti neveicas personīgajā dzīvē. Viņa ir nesen izšķīrusies no ilggadīgā drauga, un attiecību saraušanas process nav bijis ne viegls, ne patīkams. (S1, Ep2)</desc>
+  </programme>
+  <programme start="20170117003000 +0200" stop="20170117015000 +0200" channel="TV3">
+    <title>Tēta nedienas Latvijā</title>
+    <desc>Tēta nedienas Latvijā ir jauns realitātes šovs, kura dalībnieki ir ģimenes no visas Latvijas – mamma, tētis un bērni.</desc>
+  </programme>
+  <programme start="20170117015000 +0200" stop="20170117022000 +0200" channel="TV3">
+    <title>Tv3 Ziņas</title>
+    <desc>Katru vakaru plkst.19:00 kanālā TV3</desc>
+  </programme>
+  <programme start="20170117022000 +0200" stop="20170117025500 +0200" channel="TV3">
+    <title>Bez Tabu</title>
+    <desc>“Bez Tabu” saglabā savas pamatvērtības - īpašo skatījumu uz notikumiem, problēmām, cilvēkiem un viņu rīcību dažādās dzīves situā</desc>
+  </programme>
+  <programme start="20170117030000 +0200" stop="20170117035000 +0200" channel="TV3">
+    <title>Melnais saraksts 2</title>
+    <desc>Reimonds Redingtons jeb aģents Red ir bijušais valdības pārstāvis, bet šobrīd kļuvis par vienu no FIB meklētākajām personām. Red ir pazīstams kā noziedzīgu darījumu starpnieks jeb noziedzības sargs. (S2, Ep4)</desc>
+  </programme>
+  <programme start="20170117035000 +0200" stop="20170117044000 +0200" channel="TV3">
+    <title>Drošības aģenti V.a.i.r.o.g.s 2</title>
+    <desc>Drošības organizācijā VAIROGS jeb Valsts aizsardzības, izmeklēšanas un riska organizācijas galvenajā struktūrā darbojas aģenti, kas cīnās ar supervaroņiem.</desc>
+  </programme>
+  <programme start="20170117044000 +0200" stop="20170117050500 +0200" channel="TV3">
+    <title>Beibleidi 2</title>
+    <desc>Beibleidi ir īpaša spēle, kas māca nevis uzvarēt, bet spēlēt. Katram no pretiniekiem ir īpašs beibleids ar burvju spēku.</desc>
+  </programme>
+  <programme start="20170117050500 +0200" stop="20170117053500 +0200" channel="TV3">
+    <title>Dēkaiņi 2</title>
+    <desc>Zēns vārdā Fins un viņa adoptētais brālis un labākais draugs suns Džeiks, kuram piemīt maģiskas spējas mainīt savus apmērus un formu, dzīvo apokaliptiskā Ū zemē.</desc>
+  </programme>
+  <programme start="20170117053500 +0200" stop="20170117060000 +0200" channel="TV3">
+    <title>Pūķi: Berkas salas aizstāvji 2</title>
+    <desc>Kad Hikaps un viņa Nakts Trakuma pavadonis Bezzobainais uzveic Sarkano Nāvi un izglābj Berkas ļaudis, Berkas vikingi nolemj salīgt mieru ar pūķiem.</desc>
+  </programme>
+  <programme start="20170117060000 +0200" stop="20170117063000 +0200" channel="TV3">
+    <title>Divarpus vīri</title>
+    <desc>Divi brāļi nevarētu būt dažādāki - Čārlijam ir viss, ko dzīvē var vēlēties – nauda, skaista māja okeāna piekrastē, pavisam nedaudz darāmā un neskaitāmas draudzenes.</desc>
+  </programme>
+  <programme start="20170117063000 +0200" stop="20170117073000 +0200" channel="TV3">
+    <title>Īpašo uzdevumu vienība Hawaii 5-0 4</title>
+    <desc>Īpašo uzdevumu vienība Hawaii 5-0 atgriežas, lai turpinātu izmeklēt slepkavības, terorismu un cilvēku tirdzniecības gadījumus.</desc>
+  </programme>
+  <programme start="20170117073000 +0200" stop="20170117083500 +0200" channel="TV3">
+    <title>Kvantiko</title>
+    <desc>Pašā Ņujorkas centrā noticis sprādziens. Uz sagrautās Centrālstacijas drupām tiek atrasta FIB jaunā aģente Aleksa Periša.</desc>
+  </programme>
+  <programme start="20170117083500 +0200" stop="20170117085000 +0200" channel="TV3">
+    <title>Televeikala skatlogs</title>
+  </programme>
+  <programme start="20170117085000 +0200" stop="20170117095500 +0200" channel="TV3">
+    <title>Ekstrasensu cīņas 12</title>
+    <desc>Jau atkal ir sākusies jauna populārā šova „Ekstrasensu cīņas” sezona. Uz pirmo raidījumu ieradušās cīņu skatītājiem jau pazīstamas ekstrasenses Ilona Novoselova un Jeļena Ļuļakova.</desc>
+  </programme>
+  <programme start="20170117095500 +0200" stop="20170117105500 +0200" channel="TV3">
+    <title>Drošības aģenti V.a.i.r.o.g.s 2</title>
+    <desc>Drošības organizācijā VAIROGS jeb Valsts aizsardzības, izmeklēšanas un riska organizācijas galvenajā struktūrā darbojas aģenti, kas cīnās ar supervaroņiem.</desc>
+  </programme>
+  <programme start="20170117105500 +0200" stop="20170117112500 +0200" channel="TV3">
+    <title>Bakugani</title>
+    <desc>Šīs nav parastas kārtis. Tām piemīt unikālas spējas, kas nāk no citas pasaules.</desc>
+  </programme>
+  <programme start="20170117112500 +0200" stop="20170117115500 +0200" channel="TV3">
+    <title>Beibleidi 2</title>
+    <desc>Beibleidi ir īpaša spēle, kas māca nevis uzvarēt, bet spēlēt. Katram no pretiniekiem ir īpašs beibleids ar burvju spēku.</desc>
+  </programme>
+  <programme start="20170117115500 +0200" stop="20170117121500 +0200" channel="TV3">
+    <title>Pūķi: Berkas salas aizstāvji 2</title>
+    <desc>Kad Hikaps un viņa Nakts Trakuma pavadonis Bezzobainais uzveic Sarkano Nāvi un izglābj Berkas ļaudis, Berkas vikingi nolemj salīgt mieru ar pūķiem.</desc>
+  </programme>
+  <programme start="20170117121500 +0200" stop="20170117124500 +0200" channel="TV3">
+    <title>Mindijas projekts</title>
+    <desc>Mindija ir 31 gadu veca ginekoloģe, kurai ļoti neveicas personīgajā dzīvē. Viņa ir nesen izšķīrusies no ilggadīgā drauga, un attiecību saraušanas process nav bijis ne viegls, ne patīkams. (S1, Ep3)</desc>
+  </programme>
+  <programme start="20170117124500 +0200" stop="20170117131500 +0200" channel="TV3">
+    <title>Mindijas projekts</title>
+    <desc>Mindija ir 31 gadu veca ginekoloģe, kurai ļoti neveicas personīgajā dzīvē. Viņa ir nesen izšķīrusies no ilggadīgā drauga, un attiecību saraušanas process nav bijis ne viegls, ne patīkams. (S1, Ep4)</desc>
+  </programme>
+  <programme start="20170117131500 +0200" stop="20170117150000 +0200" channel="TV3">
+    <title>Tēta nedienas Latvijā</title>
+    <desc>Tēta nedienas Latvijā ir jauns realitātes šovs, kura dalībnieki ir ģimenes no visas Latvijas – mamma, tētis un bērni.</desc>
+  </programme>
+  <programme start="20170117150000 +0200" stop="20170117160000 +0200" channel="TV3">
+    <title>Īpašo uzdevumu vienība Hawaii 5-0 4</title>
+    <desc>Īpašo uzdevumu vienība Hawaii 5-0 atgriežas, lai turpinātu izmeklēt slepkavības, terorismu un cilvēku tirdzniecības gadījumus.</desc>
+  </programme>
+  <programme start="20170117160000 +0200" stop="20170117163000 +0200" channel="TV3">
+    <title>Divarpus vīri</title>
+    <desc>Divi brāļi nevarētu būt dažādāki - Čārlijam ir viss, ko dzīvē var vēlēties – nauda, skaista māja okeāna piekrastē, pavisam nedaudz darāmā un neskaitāmas draudzenes.</desc>
+  </programme>
+  <programme start="20170117163000 +0200" stop="20170117170000 +0200" channel="TV3">
+    <title>Divarpus vīri</title>
+    <desc>Divi brāļi nevarētu būt dažādāki - Čārlijam ir viss, ko dzīvē var vēlēties – nauda, skaista māja okeāna piekrastē, pavisam nedaudz darāmā un neskaitāmas draudzenes.</desc>
+  </programme>
+  <programme start="20170117170000 +0200" stop="20170117173500 +0200" channel="TV3">
+    <title>Tv3 Ziņas</title>
+    <desc>Katru vakaru plkst.19:00 kanālā TV3</desc>
+  </programme>
+  <programme start="20170117173500 +0200" stop="20170117182000 +0200" channel="TV3">
+    <title>Bez Tabu</title>
+    <desc>“Bez Tabu” saglabā savas pamatvērtības - īpašo skatījumu uz notikumiem, problēmām, cilvēkiem un viņu rīcību dažādās dzīves situā</desc>
+  </programme>
+  <programme start="20170117182000 +0200" stop="20170117185500 +0200" channel="TV3">
+    <title>Virtuve 6</title>
+    <desc>Jautrības un patiesuma pilna komēdija par greznā restorāna Claude Monet darba kolektīvu. Šajā seriālā valdīs kaislības, smalkas intrigas un tam visam pāri – humors!</desc>
+  </programme>
+  <programme start="20170117185500 +0200" stop="20170117195500 +0200" channel="TV3">
+    <title>Īpašo uzdevumu vienība Hawaii 5-0 6</title>
+    <desc>Par „Hawaii 5-0” vienības veiklību vairs neviens nav jāpārliecina – no šīs komandas prasmīgā tvēriena nav izmucis gandrīz neviens noziedznieks.</desc>
+  </programme>
+  <programme start="20170117195500 +0200" stop="20170117205500 +0200" channel="TV3">
+    <title>Zibsnis</title>
+    <desc>Kad Barijs bija mazs zēns, viņš redzēja, kā tiek nogalināta viņa mamma. Slepkavībā vainoja Barija tēvu, piespriežot viņam mūža ieslodzījumu. (S1, Ep5)</desc>
+  </programme>
+  <programme start="20170117205500 +0200" stop="20170117215500 +0200" channel="TV3">
+    <title>Bulta 3</title>
+    <desc>Pēc briesmoņu armijas uzveikšanas šķitīs, ka Stārlingsitijā ir iestājies miers.</desc>
+  </programme>
+  <programme start="20170117215500 +0200" stop="20170117225500 +0200" channel="TV3">
+    <title>Bruklinas taksis</title>
+    <desc>Ņujorkas policijas detektīve Keitlīna Salivana uz laiku tiek atstādināta no nozieguma izmeklēšanas un paliek bez autovadītājas apliecības.</desc>
+  </programme>
+  <programme start="20170116200000 +0200" stop="20170116221500 +0200" channel="TV6">
+    <title>Hokejs: Kuņluņas "Red Star"- Rīgas "Dinamo"</title>
+    <desc>KHL 16/17</desc>
+  </programme>
+  <programme start="20170116221500 +0200" stop="20170116231000 +0200" channel="TV6">
+    <title>Čikāga liesmās 3</title>
+    <desc>Stāsts par Čikāgas ugunsdzēsēju un paramdeiķu brigādi – viņu ikdienu, izsaukumiem uz notikumu vietām, bīstamo un pašaizliedzīgo darbu, kā arī savstarpējām attiecībām. (S3, Ep9)</desc>
+  </programme>
+  <programme start="20170116231000 +0200" stop="20170117025500 +0200" channel="TV6">
+    <title>Tv6 nakts mūzika</title>
+  </programme>
+  <programme start="20170117030000 +0200" stop="20170117041000 +0200" channel="TV6">
+    <title>Tv6 nakts mūzika</title>
+  </programme>
+  <programme start="20170117041000 +0200" stop="20170117061000 +0200" channel="TV6">
+    <title>Hokejs: Kuņluņas "Red Star"- Rīgas "Dinamo"</title>
+    <desc>KHL 16/17</desc>
+  </programme>
+  <programme start="20170117061000 +0200" stop="20170117064000 +0200" channel="TV6">
+    <title>Iespējams tikai Krievijā</title>
+    <desc>Kurā valstī bērnu laukums lielākai jautrībai tiek ierīkots būvbedrē, bet mammas uz veikalu braucot pie viena žāvē matus, sēžot ārpusē uz tramvaja āķiem?</desc>
+  </programme>
+  <programme start="20170117064000 +0200" stop="20170117071000 +0200" channel="TV6">
+    <title>Iespējams tikai Krievijā</title>
+    <desc>Kurā valstī bērnu laukums lielākai jautrībai tiek ierīkots būvbedrē, bet mammas uz veikalu braucot pie viena žāvē matus, sēžot ārpusē uz tramvaja āķiem?</desc>
+  </programme>
+  <programme start="20170117071000 +0200" stop="20170117073500 +0200" channel="TV6">
+    <title>Iebraucēji</title>
+    <desc>Edijam Huangam ir vienpadsmit gadu, kad viņa ģimene no Vašingtonas ķīniešu kvartāla pārvācas uz Orlando, cerot uz labāku dzīvi. (S1, Ep5)</desc>
+  </programme>
+  <programme start="20170117073500 +0200" stop="20170117080000 +0200" channel="TV6">
+    <title>Iebraucēji</title>
+    <desc>Edijam Huangam ir vienpadsmit gadu, kad viņa ģimene no Vašingtonas ķīniešu kvartāla pārvācas uz Orlando, cerot uz labāku dzīvi. (S1, Ep6)</desc>
+  </programme>
+  <programme start="20170117080000 +0200" stop="20170117083000 +0200" channel="TV6">
+    <title>Iebraucēji</title>
+    <desc>Edijam Huangam ir vienpadsmit gadu, kad viņa ģimene no Vašingtonas ķīniešu kvartāla pārvācas uz Orlando, cerot uz labāku dzīvi. (S1, Ep7)</desc>
+  </programme>
+  <programme start="20170117083000 +0200" stop="20170117090000 +0200" channel="TV6">
+    <title>Iebraucēji</title>
+    <desc>Edijam Huangam ir vienpadsmit gadu, kad viņa ģimene no Vašingtonas ķīniešu kvartāla pārvācas uz Orlando, cerot uz labāku dzīvi. (S1, Ep8)</desc>
+  </programme>
+  <programme start="20170117090000 +0200" stop="20170117093000 +0200" channel="TV6">
+    <title>Joka pēc! 2</title>
+    <desc>Sabiedrībai ir savi uzvedības rāmji, un katrs, kas tos pārkāpj, piesaista uzmanību.</desc>
+  </programme>
+  <programme start="20170117093000 +0200" stop="20170117100000 +0200" channel="TV6">
+    <title>Joka pēc! 2</title>
+    <desc>Sabiedrībai ir savi uzvedības rāmji, un katrs, kas tos pārkāpj, piesaista uzmanību.</desc>
+  </programme>
+  <programme start="20170117100000 +0200" stop="20170117110000 +0200" channel="TV6">
+    <title>Kobra 20</title>
+    <desc>Klāt divdesmitā sezona slavenākajam Vācijas spriedzes seriālam „Kobra”! Kā jau jubilejas sezonai pieklājas, gaidāmi elpu aizraujoši notikumi un dramatiski pavērsieni.</desc>
+  </programme>
+  <programme start="20170117110000 +0200" stop="20170117113000 +0200" channel="TV6">
+    <title>Iespējams tikai Krievijā</title>
+    <desc>Kurā valstī bērnu laukums lielākai jautrībai tiek ierīkots būvbedrē, bet mammas uz veikalu braucot pie viena žāvē matus, sēžot ārpusē uz tramvaja āķiem?</desc>
+  </programme>
+  <programme start="20170117113000 +0200" stop="20170117120000 +0200" channel="TV6">
+    <title>Iespējams tikai Krievijā</title>
+    <desc>Kurā valstī bērnu laukums lielākai jautrībai tiek ierīkots būvbedrē, bet mammas uz veikalu braucot pie viena žāvē matus, sēžot ārpusē uz tramvaja āķiem?</desc>
+  </programme>
+  <programme start="20170117120000 +0200" stop="20170117123000 +0200" channel="TV6">
+    <title>Universitāte</title>
+    <desc>Visefektīvākie pirmkursnieču savaldzināšanas paņēmieni, visjautrākie kopābūšanas brīži, visapkaunojošākie kopmītņu dzīves mirkļi - viss par studentiem!</desc>
+  </programme>
+  <programme start="20170117123000 +0200" stop="20170117130500 +0200" channel="TV6">
+    <title>Universitāte</title>
+    <desc>Visefektīvākie pirmkursnieču savaldzināšanas paņēmieni, visjautrākie kopābūšanas brīži, visapkaunojošākie kopmītņu dzīves mirkļi - viss par studentiem!</desc>
+  </programme>
+  <programme start="20170117130500 +0200" stop="20170117140500 +0200" channel="TV6">
+    <title>Bekstroms</title>
+    <desc>Portlendas Policijas Kriminālizmeklēšanas nodaļu vada Everets Bekstroms. (S1, Ep5)</desc>
+  </programme>
+  <programme start="20170117140500 +0200" stop="20170117143500 +0200" channel="TV6">
+    <title>Kas nogāja greizi</title>
+    <desc>Enjoy a home run derby of the world's most incredible collection of sports screw-ups, epic fails and embarrassing outcomes. (S1, Ep56)</desc>
+  </programme>
+  <programme start="20170117143500 +0200" stop="20170117150500 +0200" channel="TV6">
+    <title>Kas nogāja greizi</title>
+    <desc>Enjoy a home run derby of the world's most incredible collection of sports screw-ups, epic fails and embarrassing outcomes. (S1, Ep57)</desc>
+  </programme>
+  <programme start="20170117150500 +0200" stop="20170117153000 +0200" channel="TV6">
+    <title>Simpsoni</title>
+    <desc>Iemīļotā Simpsonu ģimenīte ir atpakaļ ar jauniem piedzīvojumiem! (S27, Ep12)</desc>
+  </programme>
+  <programme start="20170117153000 +0200" stop="20170117160000 +0200" channel="TV6">
+    <title>Simpsoni</title>
+    <desc>Iemīļotā Simpsonu ģimenīte ir atpakaļ ar jauniem piedzīvojumiem! (S27, Ep13)</desc>
+  </programme>
+  <programme start="20170117160000 +0200" stop="20170117170000 +0200" channel="TV6">
+    <title>Kobra 20</title>
+    <desc>Klāt divdesmitā sezona slavenākajam Vācijas spriedzes seriālam „Kobra”! Kā jau jubilejas sezonai pieklājas, gaidāmi elpu aizraujoši notikumi un dramatiski pavērsieni.</desc>
+  </programme>
+  <programme start="20170117170000 +0200" stop="20170117173000 +0200" channel="TV6">
+    <title>Lielā sprādziena teorija</title>
+    <desc>Seriāla centrā ir supergudrā četrotne – divi no viņiem mitinās vienā dzīvoklī un regulāri uzņem ciemos pārīti savu tikpat spējīgo draugu.</desc>
+  </programme>
+  <programme start="20170117173000 +0200" stop="20170117180000 +0200" channel="TV6">
+    <title>Lielā sprādziena teorija</title>
+    <desc>Seriāla centrā ir supergudrā četrotne – divi no viņiem mitinās vienā dzīvoklī un regulāri uzņem ciemos pārīti savu tikpat spējīgo draugu.</desc>
+  </programme>
+  <programme start="20170117180000 +0200" stop="20170117183000 +0200" channel="TV6">
+    <title>Simpsoni</title>
+    <desc>Iemīļotā Simpsonu ģimenīte ir atpakaļ ar jauniem piedzīvojumiem! (S27, Ep14)</desc>
+  </programme>
+  <programme start="20170117183000 +0200" stop="20170117190000 +0200" channel="TV6">
+    <title>Simpsoni</title>
+    <desc>Iemīļotā Simpsonu ģimenīte ir atpakaļ ar jauniem piedzīvojumiem! (S27, Ep15)</desc>
+  </programme>
+  <programme start="20170117190000 +0200" stop="20170117201000 +0200" channel="TV6">
+    <title>Gāzi grīdā: no A līdz Z</title>
+    <desc>John Bishop narrates the second programme of this two-part alphabetical celebration of the best of the Clarkson, Hammond and May years.</desc>
+  </programme>
+  <programme start="20170117201000 +0200" stop="20170117225000 +0200" channel="TV6">
+    <title>Sabiedrības ienaidnieki</title>
+    <desc>FIB cenšas apturēt bēdīgi slavenus amerikāņu gangsterus1930. gados, kad bija vērā ņemama noziedzības līmeņa paaugstināšanās. Galvenajās lomās Džonijs Deps un Kristiāns Beils.</desc>
+  </programme>
+</tv>

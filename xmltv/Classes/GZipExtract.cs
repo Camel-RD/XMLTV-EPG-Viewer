@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Threading.Tasks;
 using System.IO.Compression;
+using XZ.NET;
 
 namespace xmltv
 {
@@ -53,6 +54,36 @@ namespace xmltv
             }
         }
 
+        public static bool DecompressXZ(string source, string target)
+        {
+            var inFileStream = new FileStream(source, FileMode.Open);
+            var binaryWriter = new BinaryWriter(new FileStream(target, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None));
+            try
+            {
+                using (var xzStream = new XZInputStream(inFileStream))
+                {
+                    var buf = new byte[2048];
+                    while (true)
+                    {
+                        var count = xzStream.Read(buf, 0, buf.Length);
+                        binaryWriter.Write(buf, 0, count);
+                        if (count == 0)
+                            break;
+                    }
+                }
+                inFileStream.Close();
+                binaryWriter.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                inFileStream.Close();
+                binaryWriter.Close();
+                return false;
+            }
+        }
+
+
         public GZipExtract(string gzipFileName, string targetFile, GZipExtractEventListener eventListener)
         {
             Started = true;
@@ -67,8 +98,16 @@ namespace xmltv
             Task<bool> t = new Task<bool>(
                 (object gzipExtract) =>
                 {
-                    GZipExtract gz = (GZipExtract) gzipExtract;
-                    return Decompress(gz.GZipFileName, gz.TargetFile);
+                    if (gzipFileName.ToLower().EndsWith(".gz"))
+                    {
+                        GZipExtract gz = (GZipExtract)gzipExtract;
+                        return Decompress(gz.GZipFileName, gz.TargetFile);
+                    }
+                    else if (gzipFileName.ToLower().EndsWith(".xz"))
+                    {
+                        return DecompressXZ(gzipFileName, targetFile);
+                    }
+                    return false;
                     //return ExtractGZipA(gz.GZipFileName, gz.TargetFile);
                 }
                 , this);

@@ -54,6 +54,14 @@ namespace xmltv
             throw new MyException(s);
         }
 
+        private void DoError(string s, XmlReader xmlReader)
+        {
+            string lnnr = (xmlReader as IXmlLineInfo).LineNumber.ToString();
+            s = $"[{lnnr}]: {s}";
+            LogError(s);
+            throw new MyException(s);
+        }
+
         public bool ContainsText(string text)
         {
             if (text == "") return false;
@@ -134,7 +142,7 @@ namespace xmltv
             s = xmlReader.GetAttribute("channel");
             if (s == null || s == "")
             {
-                DoError("XML programm has no channel id");
+                DoError("XML programm has no channel id", xmlReader);
                 return false;
             }
             ChId = s;
@@ -142,12 +150,12 @@ namespace xmltv
             s = xmlReader.GetAttribute("start");
             if (s == null)
             {
-                DoError("XML no programm start");
+                DoError("XML no programm start", xmlReader);
                 return false;
             }
             if (!ParseTimeString(s, out StartA, out TimePlus))
             {
-                DoError("XML error in programm start");
+                DoError("XML error in programm start", xmlReader);
                 return false;
             }
             Start = StartA + MyTimePlus - TimePlus;
@@ -155,13 +163,14 @@ namespace xmltv
             s = xmlReader.GetAttribute("stop");
             if (s == null)
             {
-                DoError("XML no programm stop");
+                DoError("XML no programm stop", xmlReader);
                 return false;
             }
             if (!ParseTimeString(s, out StopA, out TimePlus))
             {
-                DoError("XML error in programm stop");
-                return false;
+                StopA = StartA;
+                //DoError("XML error in programm stop", xmlReader);
+                //return false;
             }
             Stop = StopA + MyTimePlus - TimePlus;
 

@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace xmltv
 {
@@ -86,6 +87,11 @@ namespace xmltv
             {
                 return -1;
             }
+        }
+
+        public static int LineNr(this XmlReader xmlReader)
+        {
+            return (xmlReader as IXmlLineInfo).LineNumber;
         }
     }
 }
