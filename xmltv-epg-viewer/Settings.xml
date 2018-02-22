@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FontSize>12</FontSize>
+  <TimePlusHours>2</TimePlusHours>
+  <CheckMisingDataOnOpen>false</CheckMisingDataOnOpen>
+  <MainFormWidth>912</MainFormWidth>
+  <MainFormHight>731</MainFormHight>
+  <SelectedSources>de;de2;se;se3;se4;se5;se6;se7</SelectedSources>
+</CSettings>

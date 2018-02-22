@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+
+<!--
+You can list as many <source> entries in a file as you wish.
+Files or urls for sources and channels ending in '.gz' will be treated as
+gzipped and decompressed while processing.
+Use the "type" attribute to set the python module that handles the file,
+currently only type="gen_xmltv" is supported, more will follow once this plugin
+gets more popular.
+The channels property is the local file or URL with channel ID to service ref
+mappings. The default is the same filename but with .channels.xml as extension.
+Each source may use a different channels definition, or multiple sources may use
+the same, whatever is convenient.
+The description must be unique for each source, and is displayed on the UI.
+-->
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>News Channels XMLTV </description>
+	<url>http://www.vuplus-community.net/rytec/rytecNWS.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Erotic Channels</description>
+	<url>http://www.vuplus-community.net/rytec/rytecERO.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>AFN</description>
+	<url>http://www.vuplus-community.net/rytec/rytecAFN.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec IPTV XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIPTV.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Rytec Miscellaneous XMLTV</description>
+	<url>http://www.vuplus-community.net/rytec/rytecMisc.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Nederland - Basis</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNL_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Vlaanderen - Basis</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_VL_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+  <description>Vlaanderen/Nederland - Gemeenschappelijk</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_NL_Common.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+  <description>Nederland - Sport/Movies</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNL_Extra.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Wallonie - Base</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_FR_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+  <description>France - TNT</description>
+	<url>http://www.vuplus-community.net/rytec/rytecTNT_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+  <description>France/Wallonie - Commun</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_FR_Common.gz</url>
+</source>  
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+  <description>France - Mixte</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFR_Mixte.gz</url>
+</source>  
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+  <description>France - Sport/Cinema</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFR_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Bulgariya</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBG.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Slovensko - Bazicky</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSK_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Ceska - Bazicky</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCZ_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Ceska/Slovensko - Rozdeleny</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCZ_SK_Common.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Ceska/Slovensko - Sportove/Filmy</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCZ_SK_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Danmark - Grundleggende</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDK_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Danmark - Delt</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDK_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Danmark - Sport/Movies</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDK_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Deutschland - Basis</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDE_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Osterreich - Basis</description>
+	<url>http://www.vuplus-community.net/rytec/rytecAT_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Switzerland - Basis</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCH_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Deutschland/Osterreich/Switzerland - Gemeinsam</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDE_Common.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Deutschland/Osterreich/Switzerland - Sports/Film</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDE_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Ellada - Genikos</description>
+	<url>http://www.vuplus-community.net/rytec/rytecGR_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Ellada - Athlitismos/Kinimatografou</description>
+	<url>http://www.vuplus-community.net/rytec/rytecGR_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Espana - Basic</description>
+	<url>http://www.vuplus-community.net/rytec/rytecES_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Espana - Adicional</description>
+	<url>http://www.vuplus-community.net/rytec/rytecES_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Espana - Deportes/Pelicula</description>
+	<url>http://www.vuplus-community.net/rytec/rytecES_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Italia - Basis</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIT_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Italia - Sky</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIT_Sky.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Italia - Sports/Film/Premium</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIT_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Magyarorszag - Basic</description>
+	<url>http://www.vuplus-community.net/rytec/rytecHU_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Magyarorszag - Sport/Film</description>
+	<url>http://www.vuplus-community.net/rytec/rytecHU_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Norge - Basic</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNO_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Norge - Delt</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNO_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Norge - Sport/Movies</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNO_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Portugal</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPT.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Romania - Baza</description>
+	<url>http://www.vuplus-community.net/rytec/rytecRO_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Romania - Sport/Film</description>
+	<url>http://www.vuplus-community.net/rytec/rytecRO_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Suomi - Perustiedot</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFI_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Suomi - Yhteinen</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFI_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Suomi - Sport/Movies</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFI_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Srbija/Hrvatska/Crna Gora - Osnovni</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSRB_HRV_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Srbija/Hrvatska/Crna Gora - Doda Teleneti</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSRB_HRV_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Srbija/Hrvatska/Crna Gora - Sport/Film</description>
+	<url>http://www.vuplus-community.net/rytec/rytecExYu_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-slovenia.xml.gz">
+	<description>Slovenija - Podlaga</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSVN_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-slovenia.xml.gz">
+	<description>Slovenija - Doda Teleneti</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSVN_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Slovenija - Sport/Film</description>
+	<url>http://www.vuplus-community.net/rytec/rytecExYu_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Polska - Podstawowy</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPL_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Polska - Dodatkowy</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPL_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Polska - Sport/Kino</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPL_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Sverige - Grundlaggande</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSE_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Sverige - Diverse</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSE_Misc.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>Sverige - Sport/Filmer</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSE_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>UK/Ireland - Freeview</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>UK/Ireland - FTA</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_FTA.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>UK/Ireland - International</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_int.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>UK/Ireland - Sky 1 (Live on Sat)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_SkyLive.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>UK/Ireland - Sky 2 (Dead on Sat)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_SkyDead.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.gz">
+	<description>UK/Ireland - Sports/Movies</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Horizons.channels.xml.gz">
+	<description>Csat Africa - Base</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSEN_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Horizons.channels.xml.gz">
+	<description>Csat Africa - Sport/Cinema</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Reunion.channels.xml.gz">
+	<description>Reunion - Base</description>
+	<url>http://www.vuplus-community.net/rytec/rytecREU_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Reunion.channels.xml.gz">
+	<description>Reunion - Sport/Cinema</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/CsatCarabean.channels.xml.gz">
+	<description>Caraibes - Base</description>
+	<url>http://www.vuplus-community.net/rytec/rytecMTQ_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/CsatCarabean.channels.xml.gz">
+	<description>Caraibes - Sport/Cinema</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/NewCaledonia.channels.xml.gz">
+	<description>Nouvelle Caledonie - Base</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNCL_Basic.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/NewCaledonia.channels.xml.gz">
+	<description>Nouvelle Caledonie - Sport/Cinema</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://epg.in.ua/epg/ls.channels.xml.gz">
+	<description>Linuxsat ExUSSR XMLTV</description>
+	<url>http://epg.in.ua/epg/tvprogram_ua_ru.gz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
+   <description>Epg-Sat.de (Russian)/ by Taljaka (XML)</description>
+   <url>http://www.epg-sat.de/epg/xmltv-ru.xml.gz</url>
+</source>
+<source type="epg.dat" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
+   <description>Epg-Sat.de (Russian)/ SAT/IPTV small (EPG.DAT)</description>
+   <url>http://epg-sat.de/epg/epg.datallru.gz</url>
+</source>
+<source type="epg.dat" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
+   <description>Epg-Sat.de (Russian)/ SAT/IPTV big (EPG.DAT)</description>
+   <url>http://epg-sat.de/epg/epg.datfull.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/rytec.channels.xml.gz">
+	<description>LatinMunic XMLTV Astra</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/hispasat.channels.xml.gz">
+	<description>LatinMunic XMLTV Hispasat</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/tdt.channels.xml.gz">
+	<description>LatinMunic XMLTV TDT</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/todo.channels.xml.gz">
+	<description>LatinMunic XMLTV Astra + Hispasat + TDT</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>News Channels XMLTV  (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNWS.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Erotic Channels (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecERO.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>AFN (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecAFN.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Rytec IPTV XMLTV (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIPTV.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Rytec Miscellaneous XMLTV (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecMisc.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Nederland - Basis (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNL_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Vlaanderen - Basis (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_VL_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+  <description>Vlaanderen/Nederland - Gemeenschappelijk (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_NL_Common.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+  <description>Nederland - Sport/Movies (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNL_Extra.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Wallonie - Base (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_FR_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+  <description>France - TNT (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecTNT_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+  <description>France/Wallonie - Commun (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBE_FR_Common.xz</url>
+</source>  
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+  <description>France - Mixte (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFR_Mixte.xz</url>
+</source>  
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+  <description>France - Sport/Cinema (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFR_SportMovies.xz</url>
+</source>
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Bulgariya (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecBG.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Slovensko - Bazicky (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSK_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Ceska - Bazicky (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCZ_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Ceska/Slovensko - Rozdeleny (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCZ_SK_Common.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Ceska/Slovensko - Sportove/Filmy (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCZ_SK_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Danmark - Grundleggende (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDK_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Danmark - Delt (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDK_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Danmark - Sport/Movies (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDK_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Deutschland - Basis (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDE_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Osterreich - Basis (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecAT_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Switzerland - Basis (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecCH_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Deutschland/Osterreich/Switzerland - Gemeinsam (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDE_Common.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Deutschland/Osterreich/Switzerland - Sports/Film (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecDE_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Ellada - Genikos (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecGR_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Ellada - Athlitismos/Kinimatografou (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecGR_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Espana - Basic (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecES_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Espana - Adicional (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecES_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Espana - Deportes/Pelicula (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecES_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Italia - Basis (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIT_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Italia - Sky (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIT_Sky.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Italia - Sports/Film/Premium (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecIT_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Magyarorszag - Basic (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecHU_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Magyarorszag - Sport/Film (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecHU_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-norway.xml.xz">
+	<description>Norge - Basic (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNO_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-norway.xml.xz">
+	<description>Norge - Delt (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNO_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-norway.xml.xz">
+	<description>Norge - Sport/Movies (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Portugal (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPT.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Romania - Baza (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecRO_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Romania - Sport/Film (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Suomi - Perustiedot (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFI_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Suomi - Yhteinen (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFI_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Suomi - Sport/Movies (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFI_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Srbija/Hrvatska/Crna Gora - Osnovni (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSRB_HRV_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Srbija/Hrvatska/Crna Gora - Doda Teleneti (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSRB_HRV_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Srbija/Hrvatska/Crna Gora - Sport/Film (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecExYu_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-slovenia.xml.xz">
+	<description>Slovenija - Podlaga (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSVN_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels-slovenia.xml.xz">
+	<description>Slovenija - Doda Teleneti (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSVN_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Slovenija - Sport/Film (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecExYu_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Polska - Podstawowy (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPL_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Polska - Dodatkowy (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPL_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Polska - Sport/Kino (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecPL_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Sverige - Grundlaggande (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSE_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Sverige - Diverse (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSE_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>Sverige - Sport/Filmer (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSE_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>UK/Ireland - Freeview</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>UK/Ireland - FTA</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_FTA.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>UK/Ireland - International</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_int.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>UK/Ireland - Sky 1 (Live on Sat)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_SkyLive.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>UK/Ireland - Sky 2 (Dead on Sat)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_SkyDead.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/rytec.channels.xml.xz">
+	<description>UK/Ireland - Sports/Movies</description>
+	<url>http://www.vuplus-community.net/rytec/rytecUK_SportMovies.xz</url>
+</source>
+
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Horizons.channels.xml.xz">
+	<description>Csat Africa - Base (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecSEN_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Horizons.channels.xml.xz">
+	<description>Csat Africa - Sport/Cinema (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Reunion.channels.xml.xz">
+	<description>Reunion - Base (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecREU_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/Reunion.channels.xml.xz">
+	<description>Reunion - Sport/Cinema (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/CsatCarabean.channels.xml.xz">
+	<description>Caraibes - Base (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecMTQ_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/CsatCarabean.channels.xml.xz">
+	<description>Caraibes - Sport/Cinema (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/NewCaledonia.channels.xml.xz">
+	<description>Nouvelle Caledonie - Base (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecNCL_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://www.vuplus-community.net/rytec/NewCaledonia.channels.xml.xz">
+	<description>Nouvelle Caledonie - Sport/Cinema (xz)</description>
+	<url>http://www.vuplus-community.net/rytec/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+
+</sources>
+
