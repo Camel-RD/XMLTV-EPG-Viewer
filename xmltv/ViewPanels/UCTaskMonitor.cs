@@ -18,6 +18,7 @@ namespace xmltv
         public UCTaskMonitor()
         {
             InitializeComponent();
+            ColorListViewHeader.colorListViewHeader(lvEvents);
         }
 
 

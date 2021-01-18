@@ -103,6 +103,56 @@ namespace xmltv
 
     public class CSettings
     {
+        private string colorThemeId = "system";
+        private MyColorTheme colorTheme = null;
+
+        [XmlIgnore]
+        public MyColorTheme ColorTheme
+        {
+            get
+            {
+                if (colorTheme == null)
+                {
+                    colorTheme = ColorThemeHelper.ColorTheme_System;
+                }
+                return colorTheme;
+            }
+        }
+
+        public string ColorThemeId
+        {
+            get { return colorThemeId; }
+            set
+            {
+                if (colorThemeId == value) return;
+                colorThemeId = value;
+                colorTheme = null;
+                switch (value)
+                {
+                    case "system":
+                        colorTheme = ColorThemeHelper.ColorTheme_System;
+                        break;
+                    case "dark1":
+                        colorTheme = ColorThemeHelper.ColorTheme_Dark1;
+                        break;
+                    case "green":
+                        colorTheme = ColorThemeHelper.ColorTheme_Green;
+                        break;
+                    case "blackonwhite":
+                        colorTheme = ColorThemeHelper.ColorTheme_BlackOnWhite;
+                        break;
+
+                }
+                if (colorTheme == null)
+                {
+                    colorTheme = ColorThemeHelper.ColorTheme_System;
+                    colorThemeId = "system";
+
+                }
+                HasChanged = true;
+            }
+        }
+
         public float FontSize = 12;
         public int TimePlusHours = 0;
         public bool CheckMisingDataOnOpen = false;

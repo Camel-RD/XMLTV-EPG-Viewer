@@ -21,6 +21,7 @@ namespace xmltv
         public UCSearch()
         {
             InitializeComponent();
+            ColorListViewHeader.colorListViewHeader(lvProgramm);
         }
 
         void DoMsg(string s)

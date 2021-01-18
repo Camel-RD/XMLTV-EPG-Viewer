@@ -56,7 +56,7 @@ namespace xmltv
             InitializeComponent();
             loadFromWebSelectedtoolStripMenuItem.DropDown.Closing +=
                 loadFromWebSelectedtoolStripMenuItem_DropDown_Closing;
-            menuStrip1.Renderer.RenderItemCheck += Renderer_RenderItemCheck;
+            //menuStrip1.Renderer.RenderItemCheck += Renderer_RenderItemCheck;
         }
 
         private void ScalePoint(ref Point p, float fx, float fy, int dx = 0, int dy = 0)
@@ -121,6 +121,7 @@ namespace xmltv
             _topManager.LoadSettings();
             CProgrammData.MyTimePlus = new TimeSpan(_topManager.Settings.TimePlusHours, 0, 0);
             SetFontSize(_topManager.Settings.FontSize);
+            SetColorTheme(_topManager.Settings.ColorThemeId, true);
             checkMissingDataOnOpenToolStripMenuItem.Checked = _topManager.Settings.CheckMisingDataOnOpen;
             if (_topManager.Settings.MainFormWidth > -1)
             {
@@ -239,6 +240,7 @@ namespace xmltv
             CurrentUCView.Dock = DockStyle.Fill;
             CurrentUCView.BringToFront();
             CurrentEPGView.RefreshData();
+            ApplyColorThemeA(newuc);
         }
 
         void ShowEPGView()
@@ -301,6 +303,7 @@ namespace xmltv
             TaskMonitorUC.Visible = true;
             TaskMonitorUC.Enabled = true;
             TaskMonitorUC.BringToFront();
+            ApplyColorThemeA(TaskMonitorUC);
         }
 
         public void HideTaskMonitorX()
@@ -449,6 +452,7 @@ namespace xmltv
             {
                 updateFromWebToolStripMenuItem.DropDownItems.Add(sr.Name);
             }
+            ApplyColorThemeA(updateFromWebToolStripMenuItem);
         }
 
         private void updateFromGzToolStripMenuItem_DropDownOpening(object sender, EventArgs e)
@@ -458,7 +462,7 @@ namespace xmltv
             {
                 updateFromGzToolStripMenuItem.DropDownItems.Add(sr.Name);
             }
-
+            ApplyColorThemeA(updateFromGzToolStripMenuItem);
         }
 
         private void updateFromGzToolStripMenuItem_DropDownItemClicked(object sender, EventArgs e)
@@ -670,16 +674,67 @@ namespace xmltv
             toolStripComboBox2.Enabled = true;
         }
 
+        void RefreshColorThemeCombo()
+        {
+            string themeid = _topManager.Settings.ColorThemeId;
+            int k = 0;
+            for(int i = 0; i < micbColorTheme.Items.Count; i++)
+            {
+                if((string)micbColorTheme.Items[i] == themeid)
+                {
+                    k = i;
+                    break;
+                }
+            }
+            micbColorTheme.Enabled = false;
+            micbColorTheme.SelectedIndex = k;
+            micbColorTheme.Enabled = true;
+        }
+
         private void settingsToolStripMenuItem_DropDownOpening(object sender, EventArgs e)
         {
+            RefreshColorThemeCombo();
             RefreshFontSizeCombo();
             RefreshTimeZoneCombo();
+        }
+
+        private void SetColorTheme(string themeid, bool force = false)
+        {
+            if (_topManager.Settings.ColorThemeId == themeid && !force) return;
+            _topManager.Settings.ColorThemeId = themeid;
+            ColorThemeHelper.ApplyToForm(this, _topManager.Settings.ColorTheme);
+            CheckMenuColorTheme();
+            ApplyColorThemeA(micbColorTheme);
         }
 
         private void SetFontSize(float sz)
         {
             if (this.Font.Size == sz) return;
             this.Font = new Font(this.Font.Name, sz, this.Font.Style);
+
+            foreach (Control c in this.Controls)
+            {
+                if (c is ToolStrip || c is MenuStrip)
+                {
+                    c.Font = this.Font;
+                    foreach (var ti in (c as ToolStrip).Items)
+                    {
+                        if (ti is ToolStripComboBox)
+                            (ti as ToolStripComboBox).Font = this.Font;
+                    }
+                }
+                else
+                {
+                    if (!c.Font.Equals(this.Font))
+                    {
+                        c.Font = new Font(
+                            this.Font.FontFamily,
+                            this.Font.SizeInPoints,
+                            c.Font.Style);
+                    }
+                }
+            }
+
             _topManager.Settings.FontSize = sz;
             _topManager.Settings.HasChanged = true;
         }
@@ -692,6 +747,42 @@ namespace xmltv
             _topManager.Settings.HasChanged = true;
         }
 
+        public void SetupMenuRenderer()
+        {
+            if (this.MainMenuStrip != null)
+            {
+                MainMenuStrip.ForeColor = Color.White;
+                var colortheme = _topManager.Settings.ColorTheme;
+                MainMenuStrip.Renderer = new MyToolStripRenderer(colortheme);
+            }
+        }
+
+        public void CheckMenuColorTheme()
+        {
+            if (this.MainMenuStrip != null)
+            {
+                var rend = MainMenuStrip.Renderer as MyToolStripRenderer;
+                if (rend == null)
+                {
+                    SetupMenuRenderer();
+                    rend = MainMenuStrip.Renderer as MyToolStripRenderer;
+                    if (rend == null) return;
+                }
+                var colortheme = _topManager.Settings.ColorTheme;
+                rend.SetColorTheme(colortheme);
+                MainMenuStrip.Refresh();
+            }
+        }
+
+        private void micbColorTheme_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            colorThemeToolStripMenuItem.HideDropDown();
+            int k = micbColorTheme.SelectedIndex;
+            if (k == -1) return;
+            string s = micbColorTheme.Items[k] as string;
+            SetColorTheme(s);
+
+        }
         private void toolStripComboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             settingsToolStripMenuItem.HideDropDown();
@@ -757,6 +848,13 @@ namespace xmltv
                 ti.CheckOnClick = true;
                 ti.Checked = sources.Contains(sr.Name);
             }
+            ApplyColorThemeA(loadFromWebSelectedtoolStripMenuItem);
+        }
+
+        private void ApplyColorThemeA(object c0)
+        {
+            var theme = _topManager.Settings.ColorTheme;
+            ColorThemeHelper.ApplyToControlA(c0, theme);
         }
 
         void SaveSelectedSourcesSeting()
@@ -799,6 +897,7 @@ namespace xmltv
         {
             SaveSelectedSourcesSeting();
         }
+
 
     }
 }

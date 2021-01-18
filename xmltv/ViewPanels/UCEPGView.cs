@@ -14,6 +14,7 @@ namespace xmltv
         public UCEPGView()
         {
             InitializeComponent();
+            ColorListViewHeader.colorListViewHeader(lvProgramm);
         }
 
         private TopManager _topManager = TopManager.St;

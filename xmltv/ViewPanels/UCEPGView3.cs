@@ -19,6 +19,7 @@ namespace xmltv
         public UCEPGView3()
         {
             InitializeComponent();
+            ColorListViewHeader.colorListViewHeader(lvProgramm);
         }
 
         void DoMsg(string s)

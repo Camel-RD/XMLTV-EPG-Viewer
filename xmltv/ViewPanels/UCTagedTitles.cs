@@ -19,6 +19,7 @@ namespace xmltv
         public UCTagedTitles()
         {
             InitializeComponent();
+            ColorListViewHeader.colorListViewHeader(lvTags);
         }
 
         void DoMsg(string s)
