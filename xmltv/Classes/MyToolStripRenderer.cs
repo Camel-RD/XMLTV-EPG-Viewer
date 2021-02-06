@@ -693,67 +693,36 @@ namespace xmltv
             UseSystemColors = false;
         }
 
-        public override Color MenuItemSelected
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color MenuItemSelectedGradientBegin
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color MenuItemSelectedGradientEnd
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color MenuItemPressedGradientBegin
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color MenuItemPressedGradientEnd
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
+        public override Color MenuItemSelected => MyColorTheme.MenuHighlight;
+        public override Color MenuItemSelectedGradientBegin => MyColorTheme.MenuHighlight;
+        public override Color MenuItemSelectedGradientEnd => MyColorTheme.MenuHighlight;
+        public override Color MenuItemPressedGradientBegin => MyColorTheme.MenuHighlight;
+        public override Color MenuItemPressedGradientEnd => MyColorTheme.MenuHighlight;
+        public override Color ButtonCheckedHighlight => MyColorTheme.MenuHighlight;
+        public override Color ButtonSelectedHighlight => MyColorTheme.MenuHighlight;
+        public override Color ButtonSelectedBorder => MyColorTheme.ControlColorLight;
+        public override Color ButtonSelectedHighlightBorder => MyColorTheme.MenuHighlight;
+        public override Color ButtonSelectedGradientBegin => MyColorTheme.MenuHighlight;
+        public override Color ButtonSelectedGradientEnd => MyColorTheme.MenuHighlight;
+        public override Color ToolStripBorder => MyColorTheme.ControlColorLight;
+        public override Color CheckSelectedBackground => MyColorTheme.MenuHighlight;
+        public override Color CheckBackground => MyColorTheme.MenuHighlight;
+        public override Color CheckPressedBackground => MyColorTheme.MenuHighlight;
 
-        public override Color ButtonCheckedHighlight
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color ButtonSelectedHighlight
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color ButtonSelectedBorder
-        {
-            get { return MyColorTheme.ControlColorLight; }
-        }
-        public override Color ButtonSelectedHighlightBorder
-        {
-            get { return MyColorTheme.MenuHighlight;}
-        }
-        public override Color ButtonSelectedGradientBegin
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color ButtonSelectedGradientEnd
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color ToolStripBorder
-        {
-            get { return MyColorTheme.ControlColorLight; }
-        }
-        public override Color CheckSelectedBackground
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color CheckBackground
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
-        public override Color CheckPressedBackground
-        {
-            get { return MyColorTheme.MenuHighlight; }
-        }
+        public override Color ImageMarginGradientBegin => MyColorTheme.ControlColor;
+        public override Color ImageMarginGradientMiddle => MyColorTheme.ControlColor;
+        public override Color ImageMarginGradientEnd => MyColorTheme.ControlColor;
+        public override Color RaftingContainerGradientBegin => MyColorTheme.ControlColor;
+        public override Color RaftingContainerGradientEnd => MyColorTheme.ControlColor;
+        public override Color ToolStripDropDownBackground => MyColorTheme.ControlColor;
+
+        public override Color ToolStripGradientBegin => MyColorTheme.ControlColor;
+        public override Color ToolStripGradientMiddle => MyColorTheme.ControlColor;
+        public override Color ToolStripGradientEnd => MyColorTheme.ControlColor;
+        public override Color ToolStripContentPanelGradientBegin => MyColorTheme.ControlColor;
+        public override Color ToolStripContentPanelGradientEnd => MyColorTheme.ControlColor;
+        public override Color ToolStripPanelGradientBegin => MyColorTheme.ControlColor;
+        public override Color ToolStripPanelGradientEnd => MyColorTheme.ControlColor;
 
     }
 

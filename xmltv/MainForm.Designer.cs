@@ -64,6 +64,8 @@
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fontSizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.colorThemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.micbColorTheme = new System.Windows.Forms.ToolStripComboBox();
             this.timeZoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripComboBox2 = new System.Windows.Forms.ToolStripComboBox();
             this.checkMissingDataOnOpenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -81,8 +83,6 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.cancelAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorThemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.micbColorTheme = new System.Windows.Forms.ToolStripComboBox();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -380,6 +380,27 @@
             this.toolStripComboBox1.ToolTipText = "Font size";
             this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox1_SelectedIndexChanged_1);
             // 
+            // colorThemeToolStripMenuItem
+            // 
+            this.colorThemeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.micbColorTheme});
+            this.colorThemeToolStripMenuItem.Name = "colorThemeToolStripMenuItem";
+            this.colorThemeToolStripMenuItem.Size = new System.Drawing.Size(399, 38);
+            this.colorThemeToolStripMenuItem.Text = "Color Theme";
+            // 
+            // micbColorTheme
+            // 
+            this.micbColorTheme.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.micbColorTheme.DropDownWidth = 200;
+            this.micbColorTheme.Items.AddRange(new object[] {
+            "system",
+            "dark1",
+            "green",
+            "blackonwhite"});
+            this.micbColorTheme.Name = "micbColorTheme";
+            this.micbColorTheme.Size = new System.Drawing.Size(200, 38);
+            this.micbColorTheme.SelectedIndexChanged += new System.EventHandler(this.micbColorTheme_SelectedIndexChanged);
+            // 
             // timeZoneToolStripMenuItem
             // 
             this.timeZoneToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -542,27 +563,6 @@
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
-            // colorThemeToolStripMenuItem
-            // 
-            this.colorThemeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.micbColorTheme});
-            this.colorThemeToolStripMenuItem.Name = "colorThemeToolStripMenuItem";
-            this.colorThemeToolStripMenuItem.Size = new System.Drawing.Size(399, 38);
-            this.colorThemeToolStripMenuItem.Text = "Color Theme";
-            // 
-            // micbColorTheme
-            // 
-            this.micbColorTheme.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.micbColorTheme.DropDownWidth = 200;
-            this.micbColorTheme.Items.AddRange(new object[] {
-            "system",
-            "dark1",
-            "green",
-            "blackonwhite"});
-            this.micbColorTheme.Name = "micbColorTheme";
-            this.micbColorTheme.Size = new System.Drawing.Size(200, 38);
-            this.micbColorTheme.SelectedIndexChanged += new System.EventHandler(this.micbColorTheme_SelectedIndexChanged);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -571,11 +571,12 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.Font = global::xmltv.Properties.Settings.Default.FormFont;
+            this.Location = new System.Drawing.Point(100, 100);
             this.MainMenuStrip = this.menuStrip2;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimumSize = new System.Drawing.Size(600, 500);
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MyEPG";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
