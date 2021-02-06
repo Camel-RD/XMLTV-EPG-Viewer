@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FontSize>12</FontSize>
+  <FontSize>14</FontSize>
   <TimePlusHours>2</TimePlusHours>
   <CheckMisingDataOnOpen>false</CheckMisingDataOnOpen>
-  <MainFormWidth>871</MainFormWidth>
-  <MainFormHight>657</MainFormHight>
-  <SelectedSources>de;se</SelectedSources>
+  <MainFormX>224</MainFormX>
+  <MainFormY>23</MainFormY>
+  <MainFormWidth>1270</MainFormWidth>
+  <MainFormHight>894</MainFormHight>
+  <SelectedSources>de;de2;pol;pol2;pol3;sp</SelectedSources>
+  <ColorThemeId>dark1</ColorThemeId>
 </CSettings>

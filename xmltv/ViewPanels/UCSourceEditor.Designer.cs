@@ -34,21 +34,21 @@
             this.lbAllChanels = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btRename = new System.Windows.Forms.Button();
-            this.tbRName = new System.Windows.Forms.TextBox();
             this.lbKeepChannels = new System.Windows.Forms.ListBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.txPrefix = new System.Windows.Forms.TextBox();
-            this.tbName = new System.Windows.Forms.TextBox();
             this.lbTvSources = new System.Windows.Forms.ListBox();
-            this.cbURL = new System.Windows.Forms.ComboBox();
-            this.tbAddHours = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.cbURL = new xmltv.FlatComboBox();
+            this.tbAddHours = new xmltv.MyTextBox();
+            this.txPrefix = new xmltv.MyTextBox();
+            this.tbName = new xmltv.MyTextBox();
+            this.tbRName = new xmltv.MyTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -97,7 +97,7 @@
             this.lbAllChanels.ItemHeight = 29;
             this.lbAllChanels.Location = new System.Drawing.Point(0, 37);
             this.lbAllChanels.Name = "lbAllChanels";
-            this.lbAllChanels.Size = new System.Drawing.Size(208, 294);
+            this.lbAllChanels.Size = new System.Drawing.Size(208, 265);
             this.lbAllChanels.TabIndex = 19;
             this.lbAllChanels.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lbAllChanels_MouseDoubleClick);
             // 
@@ -121,13 +121,6 @@
             this.btRename.UseVisualStyleBackColor = true;
             this.btRename.Click += new System.EventHandler(this.btRename_Click);
             // 
-            // tbRName
-            // 
-            this.tbRName.Location = new System.Drawing.Point(8, 44);
-            this.tbRName.Name = "tbRName";
-            this.tbRName.Size = new System.Drawing.Size(212, 35);
-            this.tbRName.TabIndex = 20;
-            // 
             // lbKeepChannels
             // 
             this.lbKeepChannels.AllowDrop = true;
@@ -138,7 +131,7 @@
             this.lbKeepChannels.ItemHeight = 29;
             this.lbKeepChannels.Location = new System.Drawing.Point(0, 93);
             this.lbKeepChannels.Name = "lbKeepChannels";
-            this.lbKeepChannels.Size = new System.Drawing.Size(379, 236);
+            this.lbKeepChannels.Size = new System.Drawing.Size(379, 207);
             this.lbKeepChannels.TabIndex = 22;
             this.lbKeepChannels.SelectedIndexChanged += new System.EventHandler(this.lbKeepChannels_SelectedIndexChanged);
             this.lbKeepChannels.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lbKeepChannels_MouseDoubleClick);
@@ -198,48 +191,15 @@
             this.toolStripButton4.Text = "GetAllCh.";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
-            // txPrefix
-            // 
-            this.txPrefix.Location = new System.Drawing.Point(435, 57);
-            this.txPrefix.Name = "txPrefix";
-            this.txPrefix.Size = new System.Drawing.Size(61, 35);
-            this.txPrefix.TabIndex = 24;
-            // 
-            // tbName
-            // 
-            this.tbName.Location = new System.Drawing.Point(286, 57);
-            this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(116, 35);
-            this.tbName.TabIndex = 23;
-            // 
             // lbTvSources
             // 
             this.lbTvSources.FormattingEnabled = true;
             this.lbTvSources.ItemHeight = 29;
             this.lbTvSources.Location = new System.Drawing.Point(0, 0);
             this.lbTvSources.Name = "lbTvSources";
-            this.lbTvSources.Size = new System.Drawing.Size(259, 149);
+            this.lbTvSources.Size = new System.Drawing.Size(259, 120);
             this.lbTvSources.TabIndex = 26;
             this.lbTvSources.SelectedIndexChanged += new System.EventHandler(this.lbTvSources_SelectedIndexChanged);
-            // 
-            // cbURL
-            // 
-            this.cbURL.DropDownHeight = 300;
-            this.cbURL.DropDownWidth = 500;
-            this.cbURL.FormattingEnabled = true;
-            this.cbURL.IntegralHeight = false;
-            this.cbURL.Location = new System.Drawing.Point(265, 112);
-            this.cbURL.Name = "cbURL";
-            this.cbURL.Size = new System.Drawing.Size(322, 37);
-            this.cbURL.TabIndex = 31;
-            this.cbURL.Leave += new System.EventHandler(this.cbURL_Leave);
-            // 
-            // tbAddHours
-            // 
-            this.tbAddHours.Location = new System.Drawing.Point(526, 57);
-            this.tbAddHours.Name = "tbAddHours";
-            this.tbAddHours.Size = new System.Drawing.Size(53, 35);
-            this.tbAddHours.TabIndex = 24;
             // 
             // label2
             // 
@@ -270,6 +230,54 @@
             this.label5.Size = new System.Drawing.Size(31, 29);
             this.label5.TabIndex = 32;
             this.label5.Text = "N";
+            // 
+            // cbURL
+            // 
+            this.cbURL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbURL.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.cbURL.DropDownHeight = 300;
+            this.cbURL.DropDownWidth = 800;
+            this.cbURL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbURL.FormattingEnabled = true;
+            this.cbURL.IntegralHeight = false;
+            this.cbURL.Location = new System.Drawing.Point(265, 112);
+            this.cbURL.Name = "cbURL";
+            this.cbURL.Size = new System.Drawing.Size(329, 37);
+            this.cbURL.TabIndex = 31;
+            this.cbURL.Leave += new System.EventHandler(this.cbURL_Leave);
+            // 
+            // tbAddHours
+            // 
+            this.tbAddHours.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.tbAddHours.Location = new System.Drawing.Point(526, 57);
+            this.tbAddHours.Name = "tbAddHours";
+            this.tbAddHours.Size = new System.Drawing.Size(53, 35);
+            this.tbAddHours.TabIndex = 24;
+            // 
+            // txPrefix
+            // 
+            this.txPrefix.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.txPrefix.Location = new System.Drawing.Point(435, 57);
+            this.txPrefix.Name = "txPrefix";
+            this.txPrefix.Size = new System.Drawing.Size(61, 35);
+            this.txPrefix.TabIndex = 24;
+            // 
+            // tbName
+            // 
+            this.tbName.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.tbName.Location = new System.Drawing.Point(286, 57);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(116, 35);
+            this.tbName.TabIndex = 23;
+            // 
+            // tbRName
+            // 
+            this.tbRName.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.tbRName.Location = new System.Drawing.Point(8, 44);
+            this.tbRName.Name = "tbRName";
+            this.tbRName.Size = new System.Drawing.Size(212, 35);
+            this.tbRName.TabIndex = 20;
             // 
             // UCSourceEditor
             // 
@@ -310,18 +318,18 @@
         private System.Windows.Forms.ListBox lbAllChanels;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btRename;
-        private System.Windows.Forms.TextBox tbRName;
+        private MyTextBox tbRName;
         private System.Windows.Forms.ListBox lbKeepChannels;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.TextBox txPrefix;
-        private System.Windows.Forms.TextBox tbName;
+        private MyTextBox txPrefix;
+        private MyTextBox tbName;
         private System.Windows.Forms.ListBox lbTvSources;
         private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ComboBox cbURL;
-        private System.Windows.Forms.TextBox tbAddHours;
+        private FlatComboBox cbURL;
+        private MyTextBox tbAddHours;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;

@@ -44,21 +44,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes2\HLSColor.cs" />
+    <Compile Include="Classes2\MyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Classes\CChannelData.cs" />
     <Compile Include="Classes\CEPGUserData.cs" />
-    <Compile Include="Classes\ColorListViewHeader.cs" />
-    <Compile Include="Classes\ColorThemeHelper.cs" />
+    <Compile Include="Classes2\ColorListViewHeader.cs" />
+    <Compile Include="Classes2\ColorThemeHelper.cs" />
     <Compile Include="Classes\ConfigData.cs" />
     <Compile Include="Classes\CProgramData.cs" />
     <Compile Include="Classes\CSource.cs" />
     <Compile Include="Classes\Downloader.cs" />
-    <Compile Include="Classes\FlatComboBox.cs">
+    <Compile Include="Classes2\FlatComboBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Classes\GZipExtract.cs" />
     <Compile Include="Classes\ListBoxDragDropHelper.cs" />
     <Compile Include="Classes\LogManager.cs" />
-    <Compile Include="Classes\MyToolStripRenderer.cs" />
+    <Compile Include="Classes2\MyToolStripRenderer.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,7 +74,7 @@
     <Compile Include="Classes\SerializableDictionary.cs" />
     <Compile Include="Classes\TopManager.cs" />
     <Compile Include="Classes\TVData.cs" />
-    <Compile Include="Classes\MyListView.cs">
+    <Compile Include="Classes2\MyListView.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ViewPanels\UCEditGroups.cs">

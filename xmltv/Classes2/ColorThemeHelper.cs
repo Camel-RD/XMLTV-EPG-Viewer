@@ -305,6 +305,12 @@ namespace xmltv
             {
                 c.ForeColor = mycolortheme.GetColor(c.ForeColor, mycolortheme.ControlTextColor);
             }
+            else if (c is MyTextBox)
+            {
+                c.ForeColor = mycolortheme.GetColor(c.ForeColor, mycolortheme.WindowTextColor);
+                c.BackColor = mycolortheme.GetColor(c.BackColor, mycolortheme.WindowColor);
+                (c as MyTextBox).BorderColor = mycolortheme.GetColor((c as MyTextBox).BorderColor, mycolortheme.BorderColor);
+            }
             else if (c is TextBox)
             {
                 c.ForeColor = mycolortheme.GetColor(c.ForeColor, mycolortheme.WindowTextColor);

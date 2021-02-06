@@ -778,17 +778,17 @@ namespace xmltv
             EPGUserData.HasChanged = true;
         }
 
-        public CGZSource LoadGZSources(string filename)
+        public CXZSource LoadXZSources(string filename)
         {
-            CGZSource GZSource;
+            CXZSource xzsource;
             if (!File.Exists(filename)) return null;
             XmlSerializer xs = null;
             FileStream fs = null;
             try
             {
-                xs = new XmlSerializer(typeof(CGZSource));
-                fs = new FileStream(filename, FileMode.Open);
-                GZSource = (CGZSource)xs.Deserialize(fs);
+                xs = new XmlSerializer(typeof(CXZSource));
+                TextReader reader = new StreamReader(filename, Encoding.Default);
+                xzsource = (CXZSource)xs.Deserialize(reader);
             }
             catch (Exception e)
             {
@@ -800,7 +800,7 @@ namespace xmltv
                 if (fs != null) fs.Close();
             }
 
-            return GZSource;
+            return xzsource;
         }
 
         public void LoadSettings()

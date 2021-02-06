@@ -41,6 +41,10 @@
           <string>TV1000Action.se</string>
           <string>ViasatComedy.dk</string>
           <string>TV1000Drama.se</string>
+          <string>HBO3.pl</string>
+          <string>CanalPlusEstrenos.sp</string>
+          <string>CanalPlusAccion.es</string>
+          <string>CanalPlusComedia.es</string>
         </ArrayOfString>
       </value>
     </item>
@@ -85,6 +89,172 @@
       </value>
     </item>
   </ChannelsByGroup>
-  <ScheduledProgramms />
-  <TagedProgramms />
+  <ScheduledProgramms>
+    <CScheduledntry>
+      <ChId>CanalPlusEstrenos.sp</ChId>
+      <Start>2021-02-06T19:10:00</Start>
+    </CScheduledntry>
+    <CScheduledntry>
+      <ChId>CanalplusFilm.pl</ChId>
+      <Start>2021-02-06T15:55:00</Start>
+    </CScheduledntry>
+    <CScheduledntry>
+      <ChId>CanalPlusComedia.es</ChId>
+      <Start>2021-02-06T16:00:00</Start>
+    </CScheduledntry>
+  </ScheduledProgramms>
+  <TagedProgramms>
+    <item>
+      <key>
+        <string>Przegląd tygodnia: Wieczór z Johnem Oliverem 6</string>
+      </key>
+      <value>
+        <EProgramTag>AutoSchedule</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Nie przegap</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Łapu-capu</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Ilustres Ignorantes</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Invitados, La Script en Movistar+</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>La Resistencia</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>La Script en Movistar+</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Łapu-capu extra</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Informe Cine</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Aktualności filmowe+</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Estrella Invitada</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Sesiones Movistar+</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Las Recomendadoras</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Pohamuj entuzjazm 10</string>
+      </key>
+      <value>
+        <EProgramTag>AutoSchedule</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Pamiętnik kierowcy Ubera</string>
+      </key>
+      <value>
+        <EProgramTag>AutoSchedule</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Cudotwórcy: Wieki ciemne</string>
+      </key>
+      <value>
+        <EProgramTag>AutoSchedule</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Devs</string>
+      </key>
+      <value>
+        <EProgramTag>AutoSchedule</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Terminator</string>
+      </key>
+      <value>
+        <EProgramTag>AutoSchedule</EProgramTag>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Berek</string>
+      </key>
+      <value>
+        <EProgramTag>Ignore</EProgramTag>
+      </value>
+    </item>
+  </TagedProgramms>
 </CEPGUserData>

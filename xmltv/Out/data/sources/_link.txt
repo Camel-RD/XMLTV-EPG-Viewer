@@ -1,1 +1,3 @@
-http://epgalfasite.dyndns.tv/crossepgsources.gz
+http://epgalfasite.dyndns.tv/crossepgsources.xz
+https://raw.githubusercontent.com/oe-alliance/oe-alliance-core/4.0/meta-oe/recipes-oe-alliance/enigma2-plugins/epgimport-rytec/rytec.sources.xml
+https://github.com/BlackHole/CrossEpgProviders/tree/master/providers

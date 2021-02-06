@@ -71,12 +71,7 @@ namespace xmltv
         }
     }
 
-    public class CGZSourceURL
-    {
-        public string[] url;
-    }
-
-    public class CGZSourceChannel
+    public class CXZSourceChannel
     {
         [XmlAttribute]
         public string name = "";
@@ -84,21 +79,35 @@ namespace xmltv
         public string[] url;
     }
 
-    public class CGZSourceSource
+    public class CXZSourceSource
     {
+        [XmlAttribute]
+        public string type = "";
+        [XmlAttribute]
+        public string channels = "";
+        [XmlElement]
         public string description = "";
         [XmlElement]
         public string[] url;
     }
 
-    [XmlRoot(ElementName = "sources")]
-    public class CGZSource
+    public class CXZSourceCat
     {
-        [XmlElement(ElementName = "channel")] 
-        public CGZSourceChannel[] channel;
+        [XmlElement]
+        public string description = "";
+        [XmlElement]
+        public CXZSourceSource[] source;
+    }
 
-        [XmlElement(ElementName = "source")]
-        public CGZSourceSource[] source;
+
+    [XmlRoot(ElementName = "sources")]
+    public class CXZSource
+    {
+        [XmlElement(ElementName = "mappings")] 
+        public CXZSourceChannel[] mappings;
+
+        [XmlElement(ElementName = "sourcecat")]
+        public CXZSourceCat[] sourcecat;
     }
 
     public class CSettings
@@ -156,6 +165,8 @@ namespace xmltv
         public float FontSize = 12;
         public int TimePlusHours = 0;
         public bool CheckMisingDataOnOpen = false;
+        public int MainFormX = -1;
+        public int MainFormY = -1;
         public int MainFormWidth = -1;
         public int MainFormHight = -1;
         public string SelectedSources = "";

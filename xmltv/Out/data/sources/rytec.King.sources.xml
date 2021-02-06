@@ -15,136 +15,501 @@ the same, whatever is convenient.
 The description must be unique for each source, and is displayed on the UI.
 -->
 
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Benelux XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvBenelux.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>News Channels XMLTV  (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNWS.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Bulgaria XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Bulgaria.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Erotic Channels (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecERO.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels-denmark.xml.gz">
-	<description>Rytec Denmark XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvnordic.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>AFN (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecAFN.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Erotic XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltverotic.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Rytec IPTV XMLTV (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecIPTV.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels-finland.xml.gz">
-	<description>Rytec Finland XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvnordic.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Miscellaneous XMLTV (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecMisc.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec France XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvFrance.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Nederland - Basis (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNL_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Germany/Austria/Swiss XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvGermany.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Vlaanderen - Basis (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecBE_VL_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Greece XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Greece.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+  <description>Vlaanderen/Nederland - Gemeenschappelijk (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecBE_NL_Common.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels-greece-en.xml.gz">
-	<description>Rytec Greece in English XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Greece.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+  <description>Nederland - Sport/Movies (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNL_Extra.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Hungary XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Hungary.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Wallonie - Base (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecBE_FR_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Israel XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvosn.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+  <description>France - TNT (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecTNT_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Italy XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvItaly.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+  <description>France/Wallonie - Commun (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecBE_FR_Common.xz</url>
+</source>  
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+  <description>France - Mixte (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFR_Mixte.xz</url>
+</source>  
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+  <description>France - Sport/Cinema (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFR_SportMovies.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels-norway.xml.gz">
-	<description>Rytec Norway XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvnordic.gz</url>
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Bulgariya (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecBG.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Middle East/JSC Sport XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvosn.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Slovensko - Bazicky (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSK_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Poland XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Poland.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Ceska - Bazicky (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecCZ_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Portugal XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Portugal.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Ceska/Slovensko - Rozdeleny (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecCZ_SK_Common.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Romania XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Romania.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Ceska/Slovensko - Sportove/Filmy (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecCZ_SK_SportMovies.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Serbia/Croatia/Montenegro XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvexyu.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Danmark - Grundleggende (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecDK_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Slovak/Czech XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Czech.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Danmark - Delt (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecDK_Misc.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels-slovenia.xml.gz">
-	<description>Rytec Slovenia XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvexyu.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Danmark - Sport/Movies (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecDK_SportMovies.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Spain XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-Spain.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Deutschland - Basis (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecDE_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels-sweden.xml.gz">
-	<description>Rytec Sweden XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvnordic.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Osterreich - Basis (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecAT_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec Turkey XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltvturkey.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Switzerland - Basis (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecCH_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/rytec.channels.xml.gz">
-	<description>Rytec UK XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-UK.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Deutschland/Osterreich/Switzerland - Gemeinsam (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecDE_Common.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/VirginUK.channels.xml.gz">
-	<description>Rytec Virgin UK XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytec/rytecxmltv-UK.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Deutschland/Osterreich/Switzerland - Sports/Film (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecDE_SportMovies.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/Horizons.channels.xml.gz">
-	<description>Rytec Csat Africa XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-CSatOverseas.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Ellada - Genikos (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecGR_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/Reunion.channels.xml.gz">
-	<description>Rytec Csat Reunion XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-CSatOverseas.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Ellada - Athlitismos/Kinimatografou (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecGR_SportMovies.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/CsatCarabean.channels.xml.gz">
-	<description>Rytec Csat Carabean XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-CSatOverseas.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Espana - Basic (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecES_Basic.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://rytecepg.ipservers.eu/epg_data/NewCaledonia.channels.xml.gz">
-	<description>Rytec New Caledonia XMLTV</description>
-	<url>http://rytecepg.ipservers.eu/epg_data/rytecxmltv-CSatOverseas.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Espana - Adicional (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecES_Misc.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://epg.in.ua/epg/ls.channels.xml.gz">
-	<description>Linuxsat ExUSSR XMLTV</description>
-	<url>http://epg.in.ua/epg/tvprogram_ua_ru.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Espana - Deportes/Pelicula (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecES_SportMovies.xz</url>
 </source>
-<source type="gen_xmltv" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
-   <description>Epg-Sat.de (Russian)/ by Taljaka (XML)</description>
-   <url>http://www.epg-sat.de/epg/xmltv-ru.xml.gz</url>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Italia - Basis (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecIT_Basic.xz</url>
 </source>
-<source type="epg.dat" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
-   <description>Epg-Sat.de (Russian)/ SAT/IPTV small (EPG.DAT)</description>
-   <url>http://epg-sat.de/epg/epg.datallru.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Italia - Sky (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecIT_Sky.xz</url>
 </source>
-<source type="epg.dat" channels="http://www.epg-sat.de/epg/epgsat.channels.xml.gz">
-   <description>Epg-Sat.de (Russian)/ SAT/IPTV big (EPG.DAT)</description>
-   <url>http://epg-sat.de/epg/epg.datfull.gz</url>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Italia - Sports/Film/Premium (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecIT_SportMovies.xz</url>
 </source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Magyarorszag - Basic (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecHU_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Magyarorszag - Sport/Film (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecHU_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels-norway.xml.xz">
+	<description>Norge - Basic (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNO_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Norge - Delt (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNO_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Norge - Sport/Movies (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Portugal (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecPT.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Romania - Baza (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecRO_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Romania - Sport/Film (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Suomi - Perustiedot (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFI_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Suomi - Yhteinen (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFI_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Suomi - Sport/Movies (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFI_SportMovies.xz</url>
+</source>
+
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Srbija/Crna Gora - Osnovni (xz)</description>
+			<url>http://rytecepg.epgspot.com/epg_data/rytecSRB_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Srbija/Crna Gora - Dodatni (xz)</description>
+			<url>http://rytecepg.epgspot.com/epg_data/rytecSRB_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Srbija/Crna Gora - Sport/Film (xz)</description>
+			<url>http://rytecepg.epgspot.com/epg_data/rytecExYu_SportMovies.xz</url>
+		</source>
+	
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Hrvatska - Osnovni (xz)</description>
+			<url>http://rytecepg.epgspot.com/epg_data/rytecHRV_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Hrvatska - Dodatni (xz)</description>
+			<url>http://rytecepg.epgspot.com/epg_data/rytecHRV_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Hrvatska - Sport/Film (xz)</description>
+			<url>http://rytecepg.epgspot.com/epg_data/rytecExYu_SportMovies.xz</url>
+		</source>
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Slovenija - Podlaga (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSVN_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Slovenija - Doda Teleneti (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSVN_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Slovenija - Sport/Film (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecExYu_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Polska - Podstawowy (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecPL_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Polska - Dodatkowy (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecPL_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Polska - Sport/Kino (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecPL_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Sverige - Grundlaggande (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSE_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Sverige - Diverse (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSE_Misc.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>Sverige - Sport/Filmer (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSE_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>UK/Ireland - FreeSat</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecUK_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>UK/Ireland - FTA</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecUK_FTA.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>UK/Ireland - International</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecUK_int.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>UK/Ireland - Sky 1</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecUK_SkyLive.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>UK/Ireland - Sky 2</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecUK_SkyDead.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/rytec.channels.xml.xz">
+	<description>UK/Ireland - Sports/Movies</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecUK_SportMovies.xz</url>
+</source>
+
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/Horizons.channels.xml.xz">
+	<description>Csat Africa - Base (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecSEN_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/Horizons.channels.xml.xz">
+	<description>Csat Africa - Sport/Cinema (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/Reunion.channels.xml.xz">
+	<description>Reunion - Base (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecREU_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/Reunion.channels.xml.xz">
+	<description>Reunion - Sport/Cinema (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/CsatCarabean.channels.xml.xz">
+	<description>Caraibes - Base (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecMTQ_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/CsatCarabean.channels.xml.xz">
+	<description>Caraibes - Sport/Cinema (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFRO_SportMovies.xz</url>
+</source>
+
+
+
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/NewCaledonia.channels.xml.xz">
+	<description>Nouvelle Caledonie - Base (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecNCL_Basic.xz</url>
+</source>
+<source type="gen_xmltv" channels="http://rytecepg.epgspot.com/epg_data/NewCaledonia.channels.xml.xz">
+	<description>Nouvelle Caledonie - Sport/Cinema (xz)</description>
+	<url>http://rytecepg.epgspot.com/epg_data/rytecFRO_SportMovies.xz</url>
+</source>
+
+		<!-- EPG FROM runigma by kil1970 - -->
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-4W.xml.gz">
+		  <description>(epg by Igor@K-runigma)- AMOS 4.0W </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-1W.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Thor 5/6/7 1.0W </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-49E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- SIRIUS 4.9E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-90E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Eutelsat 9.0E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-130E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- HOTBIRD 13.0E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-190E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Astra 19.2E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-282E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Astra 2E/2F/2G 28.2E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-315E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Astra 31.5E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-360E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Eutelsat 36B/36C </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-tricolor-360E.xml.gz">
+		  <description>(epg by Igor@K-iptvx)- Tricolor </description>
+		  <url>http://iptvx.one/epg/epg.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-400E.xml.gz">
+		<description>(epg by Igor@K-runigma)- Express-AM7 40E </description>
+		<url>"&gt;http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-460E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- AzerSpace 46E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-515E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Belintersat 1  51.5E</description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-530E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Express-AM6 53E</description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-549E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Yamal402 54.9E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-560E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Express-AT1 56E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-600E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Intelsat 60E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-749E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- ABS-2/2A 74.9E </description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-852E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Intelsat15 85.2E</description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-900E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Yamal401 90.0E</description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/SAT/channels-965E.xml.gz">
+		  <description>(epg by Igor@K-runigma)- Express-AM33 96.5E</description>
+		  <url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+
+		<source type="gen_xmltv" channels="http://runigma.com.ua/EPG/IPTV/channels-iptv.xml.gz">
+		  <description>(epg by Igor@K-runigma)- IPTV </description>
+		  <url>http://runigma.com.ua/EPG/IPTV/epg-iptv.xml.gz</url>
+		</source>
+
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/rytec.channels.xml.gz">
+	<description>LatinMunic XMLTV Astra</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/hispasat.channels.xml.gz">
+	<description>LatinMunic XMLTV Hispasat</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/tdt.channels.xml.gz">
+	<description>LatinMunic XMLTV TDT</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+<source type="gen_xmltv" channels="http://epg.tododream.com/todo.channels.xml.gz">
+	<description>LatinMunic XMLTV Astra + Hispasat + TDT</description>
+	<url>http://epg.tododream.com/latinmunich_xmltv-movistar-spain_todo.gz</url>
+</source>
+
+
 </sources>

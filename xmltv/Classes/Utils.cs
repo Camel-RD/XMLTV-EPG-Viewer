@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,23 +14,7 @@ namespace xmltv
     {
         public static string GetMyFolder()
         {
-            string s = Application.ExecutablePath;
-            int i = s.Length - 1;
-            while (s[i] != '\\' && s[i] != '/') i--;
-            s = s.Substring(0, i);
-            return s;
-        }
-
-        public static string GetFolder(string filename)
-        {
-            int i, k = filename.Length - 1;
-            char c;
-            for (i = k; i >= 0; i--)
-            {
-                c = filename[i];
-                if (c == '\\' || c == '/') return filename.Substring(0, i);
-            }
-            return "";
+            return Path.GetDirectoryName(Application.ExecutablePath);
         }
 
         public static string GetFileNameFromURL(string url)
@@ -93,5 +78,26 @@ namespace xmltv
         {
             return (xmlReader as IXmlLineInfo).LineNumber;
         }
+
+        public static bool StringToDate(string value, out DateTime date)
+        {
+            return DateTime.TryParseExact(value, "d.M.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal, out date);
+        }
+
+        public static DateTime? StringToDate(string value)
+        {
+            DateTime dt;
+            if (DateTime.TryParseExact(value, "d.M.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal, out dt))
+            {
+                return dt;
+            }
+            return null;
+        }
+
+        public static string DateToString(DateTime date)
+        {
+            return date.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture);
+        }
+
     }
 }

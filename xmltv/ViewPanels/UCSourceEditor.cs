@@ -259,27 +259,30 @@ namespace xmltv
         void GetURLList()
         {
             string filename = TopManager.DataFolder + "\\rytec.sources.xml";
-            CGZSource gzs;
+            CXZSource xzs;
             try
             {
-                gzs = TopManager.St.LoadGZSources(filename);
+                xzs = TopManager.St.LoadXZSources(filename);
             }
             catch (Exception e)
             {
                 return;
             }
             cbURL.Items.Clear();
-            if (gzs == null) return;
-            if (gzs.channel == null) return;
+            if (xzs == null) return;
+            if (xzs.sourcecat == null) return;
 
-            foreach (var ch in gzs.source)
+            foreach (var cat in xzs.sourcecat)
             {
-                cbURL.Items.Add("+" + ch.description);
-                if (ch.url != null)
+                foreach (var src in cat.source)
                 {
-                    foreach (var url in ch.url)
+                    cbURL.Items.Add("+" + src.description);
+                    if (src.url != null)
                     {
-                        cbURL.Items.Add("  " + url);
+                        foreach (var url in src.url)
+                        {
+                            cbURL.Items.Add("  " + url);
+                        }
                     }
                 }
             }

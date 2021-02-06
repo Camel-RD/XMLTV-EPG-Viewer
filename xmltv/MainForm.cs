@@ -128,6 +128,11 @@ namespace xmltv
                 this.Width = _topManager.Settings.MainFormWidth;
                 this.Height = _topManager.Settings.MainFormHight;
             }
+            if (_topManager.Settings.MainFormX > -1)
+            {
+                this.Top = _topManager.Settings.MainFormY;
+                this.Left = _topManager.Settings.MainFormX;
+            }
         }
 
         void SaveSettings()
@@ -602,11 +607,15 @@ namespace xmltv
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (this.Width != _topManager.Settings.MainFormWidth
-                || this.Height != _topManager.Settings.MainFormHight)
+            if (this.Width != _topManager.Settings.MainFormWidth || 
+                this.Height != _topManager.Settings.MainFormHight ||
+                this.Top != _topManager.Settings.MainFormY ||
+                this.Left != _topManager.Settings.MainFormX)
             {
                 _topManager.Settings.MainFormWidth = this.Width;
                 _topManager.Settings.MainFormHight = this.Height;
+                _topManager.Settings.MainFormX = this.Left;
+                _topManager.Settings.MainFormY = this.Top;
                 _topManager.Settings.HasChanged = true;
             }
             if(_topManager.Settings.HasChanged) SaveSettings();
